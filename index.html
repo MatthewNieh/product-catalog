@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Catalogue</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__inner">
+      <div class="hero__copy">
+        <p class="eyebrow">B2B Product Knowledge Base</p>
+        <h1>Static product catalogue for sales teams.</h1>
+        <p class="hero__text">
+          Based on the Nistech product list: compare main products, inspect accessory fitment, and filter by series, category, availability and capability.
+        </p>
+      </div>
+      <div class="hero__stats" aria-label="Catalogue summary">
+        <div class="stat-card">
+          <span class="stat-card__label">Products</span>
+          <strong id="product-count">0</strong>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card__label">Main Products</span>
+          <strong id="main-count">0</strong>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card__label">Accessories</span>
+          <strong id="accessory-count">0</strong>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="controls" aria-label="Search and filters">
+      <div class="search-panel">
+        <label class="search-label" for="search-input">Search products</label>
+        <div class="search-wrap">
+          <input
+            id="search-input"
+            type="search"
+            placeholder="Search by name, brand, category, features, notes, best for..."
+            autocomplete="off"
+          >
+        </div>
+      </div>
+
+      <div class="filter-grid">
+        <label class="filter-field">
+          <span>Type</span>
+          <select id="kind-filter">
+            <option value="">All types</option>
+            <option value="main">Main</option>
+            <option value="accessory">Accessory</option>
+          </select>
+        </label>
+
+        <label class="filter-field">
+          <span>Brand</span>
+          <select id="brand-filter">
+            <option value="">All brands</option>
+          </select>
+        </label>
+
+        <label class="filter-field">
+          <span>Category</span>
+          <select id="category-filter">
+            <option value="">All categories</option>
+          </select>
+        </label>
+
+        <label class="filter-field">
+          <span>Series</span>
+          <select id="series-filter">
+            <option value="">All series</option>
+          </select>
+        </label>
+
+        <label class="filter-field">
+          <span>Product type</span>
+          <select id="product-type-filter">
+            <option value="">All product types</option>
+          </select>
+        </label>
+
+        <label class="filter-field">
+          <span>Availability</span>
+          <select id="availability-filter">
+            <option value="">All availability</option>
+          </select>
+        </label>
+
+        <label class="filter-field">
+          <span>Key feature</span>
+          <select id="feature-filter">
+            <option value="">All key features</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <section class="results-bar" aria-live="polite">
+      <p id="results-summary">Loading products...</p>
+      <button id="reset-filters" class="secondary-button" type="button">Reset Filters</button>
+    </section>
+
+    <section>
+      <div id="product-grid" class="product-grid" aria-live="polite"></div>
+      <div id="empty-state" class="empty-state hidden">
+        <h2>No products matched your search.</h2>
+        <p>Try clearing one or more filters or using broader search terms.</p>
+      </div>
+    </section>
+  </main>
+
+  <aside id="compare-bar" class="compare-bar hidden" aria-label="Comparison selection">
+    <div class="compare-bar__content">
+      <div>
+        <p class="compare-bar__label">Comparison tray</p>
+        <p id="compare-summary">0 products selected</p>
+      </div>
+      <div id="compare-items" class="compare-items"></div>
+    </div>
+    <div class="compare-bar__actions">
+      <button id="clear-compare" class="secondary-button" type="button">Clear</button>
+      <button id="open-compare" class="primary-button" type="button">Compare</button>
+    </div>
+  </aside>
+
+  <div id="modal-overlay" class="modal-overlay hidden">
+    <div id="modal-content" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button id="close-modal" class="modal__close" type="button" aria-label="Close">&times;</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="auth.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
