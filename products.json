@@ -10003,5 +10003,908 @@
     "compatible_accessories": [],
     "image": "images/placeholder.jpg",
     "internal_notes": "Zoho account: Launch. Source category: Advanced Diagnostics. Official Launch reference: not listed; carton-only SKU retained by instruction."
+  },
+  {
+    "id": "launch-x431-pad-v-link",
+    "type": "main",
+    "brand": "Launch",
+    "name": "X-431 PAD V LINK",
+    "category": "Diagnostic Tools",
+    "product_type": "Advanced Diagnostic Scanner",
+    "product_series": "X-431",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "High-end X-431 diagnostic scanner with topology mapping, SmartLink C connectivity and optional ADAS, TPMS and heavy-duty expansion.",
+    "public_description": "High-end X-431 diagnostic scanner with topology mapping, SmartLink C connectivity and optional ADAS, TPMS and heavy-duty expansion.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": true,
+      "Online Programming": true,
+      "Topology": true,
+      "ADAS": true,
+      "TPMS": true,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": true,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": true,
+      "DoIP": true
+    },
+    "feature_tags": [
+      "J2534",
+      "Online Programming",
+      "Topology",
+      "ADAS",
+      "TPMS",
+      "Remote Diagnosis",
+      "CAN FD",
+      "DoIP"
+    ],
+    "related_products": [
+      "launch-x431-pad-vii-link"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-x431-pad-v-link.png",
+    "internal_notes": "Zoho account: Launch. Verified against Launch NZ and/or Nistech public catalogue."
+  },
+  {
+    "id": "launch-x431-pad-vii-link",
+    "type": "main",
+    "brand": "Launch",
+    "name": "X-431 PAD VII LINK",
+    "category": "Diagnostic Tools",
+    "product_type": "Flagship Diagnostic Scanner",
+    "product_series": "X-431",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Flagship X-431 diagnostic scanner with SmartLink C, topology mapping, ADAS, TPMS and optional heavy-duty coverage.",
+    "public_description": "Flagship X-431 diagnostic scanner with SmartLink C, topology mapping, ADAS, TPMS and optional heavy-duty coverage.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": true,
+      "Online Programming": true,
+      "Topology": true,
+      "ADAS": true,
+      "TPMS": true,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": true,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": true,
+      "DoIP": true
+    },
+    "feature_tags": [
+      "J2534",
+      "Online Programming",
+      "Topology",
+      "ADAS",
+      "TPMS",
+      "Remote Diagnosis",
+      "CAN FD",
+      "DoIP"
+    ],
+    "related_products": [
+      "launch-x431-pad-v-link"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-x431-pad-vii-link.png",
+    "internal_notes": "Zoho account: Launch. Verified against Launch NZ and/or Nistech public catalogue."
+  },
+  {
+    "id": "launch-pfp-100",
+    "type": "main",
+    "brand": "Launch",
+    "name": "PFP-100 Programming Flash Power",
+    "category": "Battery Service",
+    "product_type": "Programming Flash Power Supply",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Vehicle programming power supply that provides a stable voltage source during programming and decoding workflows.",
+    "public_description": "Vehicle programming power supply that provides a stable voltage source during programming and decoding workflows.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Programming Support"
+    ],
+    "related_products": [
+      "launch-pfp-150",
+      "launch-bst560s",
+      "launch-bst860s",
+      "launch-bst880d"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-pfp-100.png",
+    "internal_notes": "Zoho account: Launch. Verified against Launch NZ and/or Nistech public catalogue."
+  },
+  {
+    "id": "launch-pfp-150",
+    "type": "main",
+    "brand": "Launch",
+    "name": "PFP-150 Power Stabilizer",
+    "category": "Battery Service",
+    "product_type": "Programming Power Stabilizer",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Launch programming power stabilizer for professional workshop service workflows.",
+    "public_description": "Launch programming power stabilizer for professional workshop service workflows.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Programming Support"
+    ],
+    "related_products": [
+      "launch-pfp-100",
+      "launch-bst560s",
+      "launch-bst860s",
+      "launch-bst880d"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-pfp-150.png",
+    "internal_notes": "Zoho account: Launch. Verified against Launch NZ and/or Nistech public catalogue."
+  },
+  {
+    "id": "launch-vsp-800",
+    "type": "accessory",
+    "brand": "Launch",
+    "name": "VSP-800 Video Scope",
+    "category": "Specialty Tools",
+    "product_type": "Video Scope",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Launch video scope for professional workshop service workflows.",
+    "public_description": "Launch video scope for professional workshop service workflows.",
+    "best_for": [
+      "Compatible Launch service equipment"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Accessory Ecosystem"
+    ],
+    "related_products": [],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-vsp-800.png",
+    "internal_notes": "Zoho account: Launch. Verified against Launch NZ and/or Nistech public catalogue."
+  },
+  {
+    "id": "launch-vsp-808",
+    "type": "accessory",
+    "brand": "Launch",
+    "name": "VSP-808 Video Scope",
+    "category": "Specialty Tools",
+    "product_type": "Video Scope",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Launch video scope for professional workshop service workflows.",
+    "public_description": "Launch video scope for professional workshop service workflows.",
+    "best_for": [
+      "Compatible Launch service equipment"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Accessory Ecosystem"
+    ],
+    "related_products": [],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-vsp-808.png",
+    "internal_notes": "Zoho account: Launch. Verified against Launch NZ and/or Nistech public catalogue."
+  },
+  {
+    "id": "launch-sld-501",
+    "type": "main",
+    "brand": "Launch",
+    "name": "SLD-501 Smoke Diagnostic Leak Detector",
+    "category": "Specialty Tools",
+    "product_type": "Smoke Diagnostic Leak Detector",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Launch smoke diagnostic leak detector for professional workshop service workflows.",
+    "public_description": "Launch smoke diagnostic leak detector for professional workshop service workflows.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Workshop Equipment"
+    ],
+    "related_products": [
+      "launch-sld-502"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-sld-501.png",
+    "internal_notes": "Zoho account: Launch. Verified against Launch NZ and/or Nistech public catalogue."
+  },
+  {
+    "id": "launch-sld-502",
+    "type": "main",
+    "brand": "Launch",
+    "name": "SLD-502 Smoke Diagnostic Leak Detector",
+    "category": "Specialty Tools",
+    "product_type": "Smoke Diagnostic Leak Detector",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Launch smoke diagnostic leak detector for professional workshop service workflows.",
+    "public_description": "Launch smoke diagnostic leak detector for professional workshop service workflows.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Workshop Equipment"
+    ],
+    "related_products": [
+      "launch-sld-501"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-sld-502.png",
+    "internal_notes": "Zoho account: Launch. Verified against Launch NZ and/or Nistech public catalogue."
+  },
+  {
+    "id": "launch-bst560s",
+    "type": "main",
+    "brand": "Launch",
+    "name": "BST-560S Battery Tester",
+    "category": "Battery Service",
+    "product_type": "Battery Tester",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Launch battery tester for professional workshop service workflows.",
+    "public_description": "Launch battery tester for professional workshop service workflows.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": true,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Battery Testing"
+    ],
+    "related_products": [
+      "launch-pfp-100",
+      "launch-pfp-150",
+      "launch-bst860s",
+      "launch-bst880d"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-bst560s.png",
+    "internal_notes": "Zoho account: Launch. Verified against Launch NZ and/or Nistech public catalogue."
+  },
+  {
+    "id": "launch-bst860s",
+    "type": "main",
+    "brand": "Launch",
+    "name": "BST-860S Battery Tester",
+    "category": "Battery Service",
+    "product_type": "Battery Tester",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Launch battery tester for professional workshop service workflows.",
+    "public_description": "Launch battery tester for professional workshop service workflows.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": true,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Battery Testing"
+    ],
+    "related_products": [
+      "launch-pfp-100",
+      "launch-pfp-150",
+      "launch-bst560s",
+      "launch-bst880d"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-bst860s.png",
+    "internal_notes": "Zoho account: Launch. Verified against Launch NZ and/or Nistech public catalogue."
+  },
+  {
+    "id": "launch-bst880d",
+    "type": "main",
+    "brand": "Launch",
+    "name": "BST880D Battery Tester",
+    "category": "Battery Service",
+    "product_type": "Battery Tester with Registration",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Launch battery tester with registration for professional workshop service workflows.",
+    "public_description": "Launch battery tester with registration for professional workshop service workflows.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": true,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Battery Testing"
+    ],
+    "related_products": [
+      "launch-pfp-100",
+      "launch-pfp-150",
+      "launch-bst560s",
+      "launch-bst860s"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-bst880d.png",
+    "internal_notes": "Zoho account: Launch. Verified against Launch NZ and/or Nistech public catalogue."
+  },
+  {
+    "id": "launch-s2-2-sensorbox",
+    "type": "accessory",
+    "brand": "Launch",
+    "name": "S2-2 Sensorbox",
+    "category": "Specialty Tools",
+    "product_type": "Sensor Test and Simulation Module",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Sensor test and simulation module designed to help diagnose vehicle sensor faults with compatible Launch scan tools.",
+    "public_description": "Sensor test and simulation module designed to help diagnose vehicle sensor faults with compatible Launch scan tools.",
+    "best_for": [
+      "Compatible Launch service equipment"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Accessory Ecosystem"
+    ],
+    "related_products": [],
+    "compatible_devices": [
+      "launch-x431-pro-se",
+      "launch-x431-pro3-se",
+      "launch-x431-pad-v-link",
+      "launch-x431-pad-vii-link"
+    ],
+    "compatible_accessories": [],
+    "image": "images/launch-s2-2-sensorbox.png",
+    "internal_notes": "Zoho account: Launch. Verified against Launch NZ and/or Nistech public catalogue."
+  },
+  {
+    "id": "launch-twt-100",
+    "type": "accessory",
+    "brand": "Launch",
+    "name": "TWT-100 Tool Trolley",
+    "category": "Accessories",
+    "product_type": "Tool Trolley",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Launch tool trolley for professional workshop service workflows.",
+    "public_description": "Launch tool trolley for professional workshop service workflows.",
+    "best_for": [
+      "Compatible Launch service equipment"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Workshop Equipment"
+    ],
+    "related_products": [],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-twt-100.png",
+    "internal_notes": "Zoho account: Launch. Verified against Launch NZ and/or Nistech public catalogue."
+  },
+  {
+    "id": "launch-b-box-pre-obd",
+    "type": "accessory",
+    "brand": "Launch",
+    "name": "B Box Pre OBD Kit",
+    "category": "Adapters & Cables",
+    "product_type": "Pre-OBD Adapter Kit",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Launch pre-obd adapter kit for professional workshop service workflows.",
+    "public_description": "Launch pre-obd adapter kit for professional workshop service workflows.",
+    "best_for": [
+      "Compatible Launch service equipment"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": true,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Commercial Vehicle"
+    ],
+    "related_products": [],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-b-box-pre-obd.png",
+    "internal_notes": "Zoho account: Launch. Verified against Launch NZ and/or Nistech public catalogue."
+  },
+  {
+    "id": "launch-hd-iii-module",
+    "type": "accessory",
+    "brand": "Launch",
+    "name": "X-431 HD III Heavy Duty Module",
+    "category": "Heavy Duty",
+    "product_type": "Heavy Duty Diagnostic Add-on Module",
+    "product_series": "X-431",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Launch heavy duty diagnostic add-on module for professional workshop service workflows.",
+    "public_description": "Launch heavy duty diagnostic add-on module for professional workshop service workflows.",
+    "best_for": [
+      "Compatible Launch service equipment"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": true,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": true,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Heavy Duty",
+      "Commercial Vehicle"
+    ],
+    "related_products": [],
+    "compatible_devices": [
+      "launch-x431-pro3-link"
+    ],
+    "compatible_accessories": [],
+    "image": "images/launch-hd-iii-module.png",
+    "internal_notes": "Zoho account: Launch. Verified against Launch NZ and/or Nistech public catalogue."
+  },
+  {
+    "id": "launch-ev-diagnosis-addon",
+    "type": "accessory",
+    "brand": "Launch",
+    "name": "EV Diagnosis Add-on Kit",
+    "category": "EV Tool",
+    "product_type": "EV Diagnosis Add-on Kit",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Launch ev diagnosis add-on kit for professional workshop service workflows.",
+    "public_description": "Launch ev diagnosis add-on kit for professional workshop service workflows.",
+    "best_for": [
+      "Compatible Launch service equipment"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": true,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "EV Diagnostics"
+    ],
+    "related_products": [],
+    "compatible_devices": [
+      "launch-x431-pro5-smartlink",
+      "launch-x431-pad-v-link",
+      "launch-x431-pad-vii-link"
+    ],
+    "compatible_accessories": [],
+    "image": "images/launch-ev-diagnosis-addon.png",
+    "internal_notes": "Zoho account: Launch. Verified against Launch NZ and/or Nistech public catalogue."
+  },
+  {
+    "id": "launch-eg100-ev-clamp",
+    "type": "accessory",
+    "brand": "Launch",
+    "name": "EG100 EV Clamp",
+    "category": "EV Tool",
+    "product_type": "EV Current Clamp",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Launch ev current clamp for professional workshop service workflows.",
+    "public_description": "Launch ev current clamp for professional workshop service workflows.",
+    "best_for": [
+      "Compatible Launch service equipment"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": true,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "EV Diagnostics"
+    ],
+    "related_products": [],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-eg100-ev-clamp.png",
+    "internal_notes": "Zoho account: Launch. Verified against Launch NZ and/or Nistech public catalogue."
+  },
+  {
+    "id": "launch-ela320",
+    "type": "main",
+    "brand": "Launch",
+    "name": "ELA320 Intelligent Digital Power Supply",
+    "category": "EV Tool",
+    "product_type": "Intelligent Digital Power Supply",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Launch intelligent digital power supply for professional workshop service workflows.",
+    "public_description": "Launch intelligent digital power supply for professional workshop service workflows.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": true,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": true,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "EV Diagnostics",
+      "Battery Testing"
+    ],
+    "related_products": [],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-ela320.png",
+    "internal_notes": "Zoho account: Launch. Verified against Launch NZ and/or Nistech public catalogue."
+  },
+  {
+    "id": "launch-x431-adas-mobile",
+    "type": "main",
+    "brand": "Launch",
+    "name": "X-431 ADAS Mobile",
+    "category": "ADAS & Alignment",
+    "product_type": "Portable ADAS Calibration System",
+    "product_series": "X-431",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Portable, foldable ADAS calibration system with 23 manufacturer-standard target styles and compatibility with Launch ADAS PRO AVM, RCW and BSD targets.",
+    "public_description": "Portable, foldable ADAS calibration system with 23 manufacturer-standard target styles and compatibility with Launch ADAS PRO AVM, RCW and BSD targets.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": true,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "ADAS"
+    ],
+    "related_products": [],
+    "compatible_devices": [],
+    "compatible_accessories": [
+      "launch-x431-pad-v-link",
+      "launch-x431-pad-vii-link",
+      "launch-x431-pro3-link",
+      "launch-x431-pro3-se",
+      "launch-x431-pro-se"
+    ],
+    "image": "images/launch-x431-adas-mobile.png",
+    "internal_notes": "Zoho account: Nistech. Verified against Launch NZ and/or Nistech public catalogue.",
+    "specification_image": "images/launch-adas-mobile-specification.png"
   }
 ]
