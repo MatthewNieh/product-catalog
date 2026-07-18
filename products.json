@@ -10897,56 +10897,39 @@
     "related_products": [],
     "compatible_devices": [],
     "compatible_accessories": [
-      "launch-ldw-target-lam01-11",
-      "launch-ldw-target-lam01-04-l",
-      "launch-ldw-target-lam01-04-r",
-      "launch-ldw-target-lam01-17",
-      "launch-ldw-target-lam01-20",
-      "launch-ldw-target-lam01-09",
-      "launch-ldw-target-lac01-13",
-      "launch-ldw-target-lam01-10",
-      "launch-ldw-target-lam01-16-l",
-      "launch-ldw-target-lam01-16-r",
-      "launch-ldw-target-lam01-01",
-      "launch-ldw-target-lam01-19-l",
-      "launch-ldw-target-lam01-19-r",
-      "launch-ldw-target-lam01-07-l",
-      "launch-ldw-target-lam01-07-r",
-      "launch-ldw-target-lam01-12-l",
-      "launch-ldw-target-lam01-12-r",
-      "launch-ldw-target-lam01-23-l",
-      "launch-ldw-target-lam01-23-r",
-      "launch-ldw-target-lam01-15",
-      "launch-ldw-target-lam01-21",
-      "launch-ldw-target-lam01-18-l",
-      "launch-ldw-target-lam01-18-r",
-      "launch-ldw-target-lam01-25",
-      "launch-ldw-target-lam09-08",
-      "launch-ldw-target-lam09-09",
-      "launch-ldw-target-lam01-06-1",
-      "launch-ldw-target-lam01-06-2",
-      "launch-ldw-target-lam01-06-3",
-      "launch-ldw-target-lam01-02"
+      "launch-adas-avm-vag-lac04-04",
+      "launch-adas-avm-honda-lac04-01-02",
+      "launch-adas-avm-mitsubishi-lac04-13",
+      "launch-adas-avm-vag-lac04-14",
+      "launch-adas-rcw-mercedes-lac02-02",
+      "launch-adas-rcw-vag-lac02-03",
+      "launch-adas-rcw-nissan-lac04-11",
+      "launch-adas-rcw-nissan-lac04-15",
+      "launch-adas-rcw-nissan-lac04-24",
+      "launch-adas-ldw-toyota-lam01-06-2",
+      "launch-adas-ldw-subaru-lam01-31",
+      "launch-adas-avm-toyota-lac04-16",
+      "launch-adas-avm-hyundai-kia-lac04-31",
+      "launch-adas-ldw-daihatsu-lam01-29"
     ],
     "image": "images/launch-x431-adas-mobile.png",
-    "internal_notes": "Zoho account: Nistech. Verified against Launch NZ and/or Nistech public catalogue. Includes 30 LDW targets and target-extension rods cropped from the verified Launch NZ Specification reference.",
-    "specification_image": "images/launch-adas-mobile-specification.png"
+    "internal_notes": "Zoho account: Nistech. Verified against Launch NZ and/or Nistech public catalogue."
   },
   {
-    "id": "launch-ldw-target-lam01-11",
+    "id": "launch-adas-avm-vag-lac04-04",
     "type": "accessory",
     "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-11 - Alfa Romeo",
+    "name": "Launch AVM VAG LAC04-04",
     "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
+    "product_type": "ADAS Calibration Target",
+    "product_series": "X-431 ADAS",
     "availability": "Unavailable",
     "price_nzd_ex_gst": 0,
     "subscription_nzd_ex_gst": 0,
-    "positioning": "Alfa Romeo ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-11 target for Alfa Romeo lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
+    "positioning": "AVM VAG LAC04-04 target for compatible Launch ADAS calibration workflows.",
+    "public_description": "Launch Tech Volkswagen / Audi Look around Calibration Target  (LAC04-04) - 606010048",
     "best_for": [
-      "Launch ADAS Mobile calibration"
+      "Launch ADAS calibration"
     ],
     "features": {
       "J2534": false,
@@ -10969,31 +10952,31 @@
     },
     "feature_tags": [
       "ADAS",
-      "LDW Calibration"
+      "Calibration Target"
     ],
     "related_products": [],
     "compatible_devices": [
       "launch-x431-adas-mobile"
     ],
     "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-11.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
+    "image": "images/launch-adas-avm-vag-lac04-04.png",
+    "internal_notes": "Zoho account: Launch. Image and target name verified against ADAS Depot: https://adasdepot.comhttps://adasdepot.com/launch-tech-volkswagen-audi-look-around-calibration-target-lac04-04-606010048/"
   },
   {
-    "id": "launch-ldw-target-lam01-04-l",
+    "id": "launch-adas-avm-honda-lac04-01-02",
     "type": "accessory",
     "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-04-L - Honda I",
+    "name": "Launch AVM Honda LAC04-01,02",
     "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
+    "product_type": "ADAS Calibration Target",
+    "product_series": "X-431 ADAS",
     "availability": "Unavailable",
     "price_nzd_ex_gst": 0,
     "subscription_nzd_ex_gst": 0,
-    "positioning": "Honda I ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-04-L target for Honda I lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
+    "positioning": "AVM Honda LAC04-01,02 target for compatible Launch ADAS calibration workflows.",
+    "public_description": "Launch Tech Honda / Acura AVM  (LAC 04-01, LAC 04-02) - 206010677",
     "best_for": [
-      "Launch ADAS Mobile calibration"
+      "Launch ADAS calibration"
     ],
     "features": {
       "J2534": false,
@@ -11016,31 +10999,31 @@
     },
     "feature_tags": [
       "ADAS",
-      "LDW Calibration"
+      "Calibration Target"
     ],
     "related_products": [],
     "compatible_devices": [
       "launch-x431-adas-mobile"
     ],
     "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-04-l.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
+    "image": "images/launch-adas-avm-honda-lac04-01-02.png",
+    "internal_notes": "Zoho account: Launch. Image and target name verified against ADAS Depot: https://adasdepot.comhttps://adasdepot.com/launch-tech-honda-acura-avm-lac-04-01-lac-04-02-206010677/"
   },
   {
-    "id": "launch-ldw-target-lam01-04-r",
+    "id": "launch-adas-avm-mitsubishi-lac04-13",
     "type": "accessory",
     "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-04-R - Honda I",
+    "name": "Launch AVM Mitsubishi LAC04-13",
     "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
+    "product_type": "ADAS Calibration Target",
+    "product_series": "X-431 ADAS",
     "availability": "Unavailable",
     "price_nzd_ex_gst": 0,
     "subscription_nzd_ex_gst": 0,
-    "positioning": "Honda I ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-04-R target for Honda I lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
+    "positioning": "AVM Mitsubishi LAC04-13 target for compatible Launch ADAS calibration workflows.",
+    "public_description": "Launch Tech X-431 ADAS Mitsubishi AVM target  (LAC04-13) - 301250035",
     "best_for": [
-      "Launch ADAS Mobile calibration"
+      "Launch ADAS calibration"
     ],
     "features": {
       "J2534": false,
@@ -11063,31 +11046,31 @@
     },
     "feature_tags": [
       "ADAS",
-      "LDW Calibration"
+      "Calibration Target"
     ],
     "related_products": [],
     "compatible_devices": [
       "launch-x431-adas-mobile"
     ],
     "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-04-r.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
+    "image": "images/launch-adas-avm-mitsubishi-lac04-13.png",
+    "internal_notes": "Zoho account: Launch. Image and target name verified against ADAS Depot: https://adasdepot.comhttps://adasdepot.com/launch-tech-x-431-adas-mitsubishi-avm-target-lac04-13-301250035/"
   },
   {
-    "id": "launch-ldw-target-lam01-17",
+    "id": "launch-adas-avm-vag-lac04-14",
     "type": "accessory",
     "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-17 - Honda II",
+    "name": "Launch AVM VAG LAC04-14",
     "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
+    "product_type": "ADAS Calibration Target",
+    "product_series": "X-431 ADAS",
     "availability": "Unavailable",
     "price_nzd_ex_gst": 0,
     "subscription_nzd_ex_gst": 0,
-    "positioning": "Honda II ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-17 target for Honda II lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
+    "positioning": "AVM VAG LAC04-14 target for compatible Launch ADAS calibration workflows.",
+    "public_description": "Launch Tech X-431 ADAS VW AVM target  (LAC04-14) - 301250037",
     "best_for": [
-      "Launch ADAS Mobile calibration"
+      "Launch ADAS calibration"
     ],
     "features": {
       "J2534": false,
@@ -11110,31 +11093,31 @@
     },
     "feature_tags": [
       "ADAS",
-      "LDW Calibration"
+      "Calibration Target"
     ],
     "related_products": [],
     "compatible_devices": [
       "launch-x431-adas-mobile"
     ],
     "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-17.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
+    "image": "images/launch-adas-avm-vag-lac04-14.png",
+    "internal_notes": "Zoho account: Launch. Image and target name verified against ADAS Depot: https://adasdepot.comhttps://adasdepot.com/launch-tech-x-431-adas-vw-avm-target-lac04-14-301250037/"
   },
   {
-    "id": "launch-ldw-target-lam01-20",
+    "id": "launch-adas-rcw-mercedes-lac02-02",
     "type": "accessory",
     "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-20 - Honda III",
+    "name": "Launch RCW Mercedes LAC02-02",
     "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
+    "product_type": "ADAS Calibration Target",
+    "product_series": "X-431 ADAS",
     "availability": "Unavailable",
     "price_nzd_ex_gst": 0,
     "subscription_nzd_ex_gst": 0,
-    "positioning": "Honda III ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-20 target for Honda III lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
+    "positioning": "RCW Mercedes LAC02-02 target for compatible Launch ADAS calibration workflows.",
+    "public_description": "Launch Tech Mercedes RCW Target (LAC02-02) - 606010045",
     "best_for": [
-      "Launch ADAS Mobile calibration"
+      "Launch ADAS calibration"
     ],
     "features": {
       "J2534": false,
@@ -11157,31 +11140,31 @@
     },
     "feature_tags": [
       "ADAS",
-      "LDW Calibration"
+      "Calibration Target"
     ],
     "related_products": [],
     "compatible_devices": [
       "launch-x431-adas-mobile"
     ],
     "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-20.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
+    "image": "images/launch-adas-rcw-mercedes-lac02-02.png",
+    "internal_notes": "Zoho account: Launch. Image and target name verified against ADAS Depot: https://adasdepot.comhttps://adasdepot.com/launch-tech-mercedes-rcw-target-lac02-02-606010045/"
   },
   {
-    "id": "launch-ldw-target-lam01-09",
+    "id": "launch-adas-rcw-vag-lac02-03",
     "type": "accessory",
     "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-09 - Hyundai/Kia",
+    "name": "Launch RCW VAG LAC02-03",
     "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
+    "product_type": "ADAS Calibration Target",
+    "product_series": "X-431 ADAS",
     "availability": "Unavailable",
     "price_nzd_ex_gst": 0,
     "subscription_nzd_ex_gst": 0,
-    "positioning": "Hyundai/Kia ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-09 target for Hyundai/Kia lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
+    "positioning": "RCW VAG LAC02-03 target for compatible Launch ADAS calibration workflows.",
+    "public_description": "Launch Tech Volkswagen / Audi Rear View Calibration Target  (LAC02-03) - 606010046",
     "best_for": [
-      "Launch ADAS Mobile calibration"
+      "Launch ADAS calibration"
     ],
     "features": {
       "J2534": false,
@@ -11204,31 +11187,31 @@
     },
     "feature_tags": [
       "ADAS",
-      "LDW Calibration"
+      "Calibration Target"
     ],
     "related_products": [],
     "compatible_devices": [
       "launch-x431-adas-mobile"
     ],
     "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-09.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
+    "image": "images/launch-adas-rcw-vag-lac02-03.png",
+    "internal_notes": "Zoho account: Launch. Image and target name verified against ADAS Depot: https://adasdepot.comhttps://adasdepot.com/launch-tech-volkswagen-audi-rear-view-calibration-target-lac02-03-606010046/"
   },
   {
-    "id": "launch-ldw-target-lac01-13",
+    "id": "launch-adas-rcw-nissan-lac04-11",
     "type": "accessory",
     "brand": "Launch",
-    "name": "LDW Calibration Target LAC01-13 - Hyundai/Kia",
+    "name": "Launch RCW Nissan LAC04-11",
     "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
+    "product_type": "ADAS Calibration Target",
+    "product_series": "X-431 ADAS",
     "availability": "Unavailable",
     "price_nzd_ex_gst": 0,
     "subscription_nzd_ex_gst": 0,
-    "positioning": "Hyundai/Kia ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAC01-13 target for Hyundai/Kia lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
+    "positioning": "RCW Nissan LAC04-11 target for compatible Launch ADAS calibration workflows.",
+    "public_description": "Launch Tech X-431 ADAS Nissan AVM  (LAC04-11) - 206010678",
     "best_for": [
-      "Launch ADAS Mobile calibration"
+      "Launch ADAS calibration"
     ],
     "features": {
       "J2534": false,
@@ -11251,31 +11234,31 @@
     },
     "feature_tags": [
       "ADAS",
-      "LDW Calibration"
+      "Calibration Target"
     ],
     "related_products": [],
     "compatible_devices": [
       "launch-x431-adas-mobile"
     ],
     "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lac01-13.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
+    "image": "images/launch-adas-rcw-nissan-lac04-11.png",
+    "internal_notes": "Zoho account: Launch. Image and target name verified against ADAS Depot: https://adasdepot.comhttps://adasdepot.com/launch-tech-x-431-adas-nissan-avm-lac04-11-206010678/"
   },
   {
-    "id": "launch-ldw-target-lam01-10",
+    "id": "launch-adas-rcw-nissan-lac04-15",
     "type": "accessory",
     "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-10 - Mazda I",
+    "name": "Launch RCW Nissan LAC04-15",
     "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
+    "product_type": "ADAS Calibration Target",
+    "product_series": "X-431 ADAS",
     "availability": "Unavailable",
     "price_nzd_ex_gst": 0,
     "subscription_nzd_ex_gst": 0,
-    "positioning": "Mazda I ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-10 target for Mazda I lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
+    "positioning": "RCW Nissan LAC04-15 target for compatible Launch ADAS calibration workflows.",
+    "public_description": "Launch Tech X-431 ADAS Nissan AVM target  (LAC04-15) - 301250036",
     "best_for": [
-      "Launch ADAS Mobile calibration"
+      "Launch ADAS calibration"
     ],
     "features": {
       "J2534": false,
@@ -11298,31 +11281,31 @@
     },
     "feature_tags": [
       "ADAS",
-      "LDW Calibration"
+      "Calibration Target"
     ],
     "related_products": [],
     "compatible_devices": [
       "launch-x431-adas-mobile"
     ],
     "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-10.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
+    "image": "images/launch-adas-rcw-nissan-lac04-15.png",
+    "internal_notes": "Zoho account: Launch. Image and target name verified against ADAS Depot: https://adasdepot.comhttps://adasdepot.com/launch-tech-x-431-adas-nissan-avm-target-lac04-15-301250036/"
   },
   {
-    "id": "launch-ldw-target-lam01-16-l",
+    "id": "launch-adas-rcw-nissan-lac04-24",
     "type": "accessory",
     "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-16-L - Mazda II",
+    "name": "Launch RCW Nissan LAC04-24",
     "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
+    "product_type": "ADAS Calibration Target",
+    "product_series": "X-431 ADAS",
     "availability": "Unavailable",
     "price_nzd_ex_gst": 0,
     "subscription_nzd_ex_gst": 0,
-    "positioning": "Mazda II ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-16-L target for Mazda II lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
+    "positioning": "RCW Nissan LAC04-24 target for compatible Launch ADAS calibration workflows.",
+    "public_description": "Launch Tech X-431 ADAS Nissan RCW Target  (LAC04-24) - 307140006",
     "best_for": [
-      "Launch ADAS Mobile calibration"
+      "Launch ADAS calibration"
     ],
     "features": {
       "J2534": false,
@@ -11345,31 +11328,31 @@
     },
     "feature_tags": [
       "ADAS",
-      "LDW Calibration"
+      "Calibration Target"
     ],
     "related_products": [],
     "compatible_devices": [
       "launch-x431-adas-mobile"
     ],
     "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-16-l.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
+    "image": "images/launch-adas-rcw-nissan-lac04-24.png",
+    "internal_notes": "Zoho account: Launch. Image and target name verified against ADAS Depot: https://adasdepot.comhttps://adasdepot.com/launch-tech-x-431-adas-nissan-rcw-target-lac04-24-307140006/"
   },
   {
-    "id": "launch-ldw-target-lam01-16-r",
+    "id": "launch-adas-ldw-toyota-lam01-06-2",
     "type": "accessory",
     "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-16-R - Mazda II",
+    "name": "Launch LDW Toyota LAM01-06-2",
     "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
+    "product_type": "ADAS Calibration Target",
+    "product_series": "X-431 ADAS",
     "availability": "Unavailable",
     "price_nzd_ex_gst": 0,
     "subscription_nzd_ex_gst": 0,
-    "positioning": "Mazda II ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-16-R target for Mazda II lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
+    "positioning": "LDW Toyota LAM01-06-2 target for compatible Launch ADAS calibration workflows.",
+    "public_description": "Launch Tech Toyota II (LAM01-06-2) - 701020009",
     "best_for": [
-      "Launch ADAS Mobile calibration"
+      "Launch ADAS calibration"
     ],
     "features": {
       "J2534": false,
@@ -11392,31 +11375,31 @@
     },
     "feature_tags": [
       "ADAS",
-      "LDW Calibration"
+      "Calibration Target"
     ],
     "related_products": [],
     "compatible_devices": [
       "launch-x431-adas-mobile"
     ],
     "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-16-r.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
+    "image": "images/launch-adas-ldw-toyota-lam01-06-2.png",
+    "internal_notes": "Zoho account: Launch. Image and target name verified against ADAS Depot: https://adasdepot.comhttps://adasdepot.com/launch-tech-toyota-ii-lam01-06-2-701020009/"
   },
   {
-    "id": "launch-ldw-target-lam01-01",
+    "id": "launch-adas-ldw-subaru-lam01-31",
     "type": "accessory",
     "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-01 - Mercedes",
+    "name": "Launch LDW Subaru LAM01-31",
     "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
+    "product_type": "ADAS Calibration Target",
+    "product_series": "X-431 ADAS",
     "availability": "Unavailable",
     "price_nzd_ex_gst": 0,
     "subscription_nzd_ex_gst": 0,
-    "positioning": "Mercedes ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-01 target for Mercedes lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
+    "positioning": "LDW Subaru LAM01-31 target for compatible Launch ADAS calibration workflows.",
+    "public_description": "Launch Tech X-431 ADAS Subaru LDW Target (LAM01-31) - 701020254",
     "best_for": [
-      "Launch ADAS Mobile calibration"
+      "Launch ADAS calibration"
     ],
     "features": {
       "J2534": false,
@@ -11439,31 +11422,31 @@
     },
     "feature_tags": [
       "ADAS",
-      "LDW Calibration"
+      "Calibration Target"
     ],
     "related_products": [],
     "compatible_devices": [
       "launch-x431-adas-mobile"
     ],
     "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-01.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
+    "image": "images/launch-adas-ldw-subaru-lam01-31.png",
+    "internal_notes": "Zoho account: Launch. Image and target name verified against ADAS Depot: https://adasdepot.comhttps://adasdepot.com/launch-tech-x-431-adas-subaru-ldw-target-lam01-31-701020254/"
   },
   {
-    "id": "launch-ldw-target-lam01-19-l",
+    "id": "launch-adas-avm-toyota-lac04-16",
     "type": "accessory",
     "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-19-L - Mitsubishi",
+    "name": "Launch AVM Toyota LAC04-16",
     "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
+    "product_type": "ADAS Calibration Target",
+    "product_series": "X-431 ADAS",
     "availability": "Unavailable",
     "price_nzd_ex_gst": 0,
     "subscription_nzd_ex_gst": 0,
-    "positioning": "Mitsubishi ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-19-L target for Mitsubishi lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
+    "positioning": "AVM Toyota LAC04-16 target for compatible Launch ADAS calibration workflows.",
+    "public_description": "Launch Tech X-431 ADAS Toyota AVM Target  (LAC04-16) - 307010117",
     "best_for": [
-      "Launch ADAS Mobile calibration"
+      "Launch ADAS calibration"
     ],
     "features": {
       "J2534": false,
@@ -11486,31 +11469,31 @@
     },
     "feature_tags": [
       "ADAS",
-      "LDW Calibration"
+      "Calibration Target"
     ],
     "related_products": [],
     "compatible_devices": [
       "launch-x431-adas-mobile"
     ],
     "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-19-l.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
+    "image": "images/launch-adas-avm-toyota-lac04-16.png",
+    "internal_notes": "Zoho account: Launch. Image and target name verified against ADAS Depot: https://adasdepot.comhttps://adasdepot.com/launch-tech-x-431-adas-toyota-avm-target-lac04-16-307010117/"
   },
   {
-    "id": "launch-ldw-target-lam01-19-r",
+    "id": "launch-adas-avm-hyundai-kia-lac04-31",
     "type": "accessory",
     "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-19-R - Mitsubishi",
+    "name": "Launch AVM Hyundai/Kia LAC04-31",
     "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
+    "product_type": "ADAS Calibration Target",
+    "product_series": "X-431 ADAS",
     "availability": "Unavailable",
     "price_nzd_ex_gst": 0,
     "subscription_nzd_ex_gst": 0,
-    "positioning": "Mitsubishi ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-19-R target for Mitsubishi lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
+    "positioning": "AVM Hyundai/Kia LAC04-31 target for compatible Launch ADAS calibration workflows.",
+    "public_description": "Launch Tech X-431 ADAS Hyundai AVM Target (LAC04-31) - 701010149",
     "best_for": [
-      "Launch ADAS Mobile calibration"
+      "Launch ADAS calibration"
     ],
     "features": {
       "J2534": false,
@@ -11533,31 +11516,31 @@
     },
     "feature_tags": [
       "ADAS",
-      "LDW Calibration"
+      "Calibration Target"
     ],
     "related_products": [],
     "compatible_devices": [
       "launch-x431-adas-mobile"
     ],
     "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-19-r.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
+    "image": "images/launch-adas-avm-hyundai-kia-lac04-31.png",
+    "internal_notes": "Zoho account: Launch. Image and target name verified against ADAS Depot: https://adasdepot.comhttps://adasdepot.com/launch-tech-x-431-adas-hyundai-avm-target-lac04-31-701010149/"
   },
   {
-    "id": "launch-ldw-target-lam01-07-l",
+    "id": "launch-adas-ldw-daihatsu-lam01-29",
     "type": "accessory",
     "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-07-L - Nissan I",
+    "name": "Launch LDW Daihatsu LAM01-29",
     "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
+    "product_type": "ADAS Calibration Target",
+    "product_series": "X-431 ADAS",
     "availability": "Unavailable",
     "price_nzd_ex_gst": 0,
     "subscription_nzd_ex_gst": 0,
-    "positioning": "Nissan I ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-07-L target for Nissan I lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
+    "positioning": "LDW Daihatsu LAM01-29 target for compatible Launch ADAS calibration workflows.",
+    "public_description": "Launch Tech X-431 ADAS Daihatsu LDW Target (LAM01-29) - 701020252",
     "best_for": [
-      "Launch ADAS Mobile calibration"
+      "Launch ADAS calibration"
     ],
     "features": {
       "J2534": false,
@@ -11580,766 +11563,14 @@
     },
     "feature_tags": [
       "ADAS",
-      "LDW Calibration"
+      "Calibration Target"
     ],
     "related_products": [],
     "compatible_devices": [
       "launch-x431-adas-mobile"
     ],
     "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-07-l.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
-  },
-  {
-    "id": "launch-ldw-target-lam01-07-r",
-    "type": "accessory",
-    "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-07-R - Nissan I",
-    "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
-    "availability": "Unavailable",
-    "price_nzd_ex_gst": 0,
-    "subscription_nzd_ex_gst": 0,
-    "positioning": "Nissan I ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-07-R target for Nissan I lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
-    "best_for": [
-      "Launch ADAS Mobile calibration"
-    ],
-    "features": {
-      "J2534": false,
-      "Online Programming": false,
-      "Topology": false,
-      "ADAS": true,
-      "TPMS": false,
-      "Key Programming": "No",
-      "Heavy Duty": false,
-      "Remote Diagnosis": false,
-      "Battery Testing": false,
-      "Motorcycle": false,
-      "Commercial Vehicle": false,
-      "EV Diagnostics": false,
-      "Oscilloscope": false,
-      "VCI Included": false,
-      "Wireless Bluetooth": false,
-      "CAN FD": false,
-      "DoIP": false
-    },
-    "feature_tags": [
-      "ADAS",
-      "LDW Calibration"
-    ],
-    "related_products": [],
-    "compatible_devices": [
-      "launch-x431-adas-mobile"
-    ],
-    "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-07-r.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
-  },
-  {
-    "id": "launch-ldw-target-lam01-12-l",
-    "type": "accessory",
-    "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-12-L - Nissan/Renault",
-    "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
-    "availability": "Unavailable",
-    "price_nzd_ex_gst": 0,
-    "subscription_nzd_ex_gst": 0,
-    "positioning": "Nissan/Renault ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-12-L target for Nissan/Renault lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
-    "best_for": [
-      "Launch ADAS Mobile calibration"
-    ],
-    "features": {
-      "J2534": false,
-      "Online Programming": false,
-      "Topology": false,
-      "ADAS": true,
-      "TPMS": false,
-      "Key Programming": "No",
-      "Heavy Duty": false,
-      "Remote Diagnosis": false,
-      "Battery Testing": false,
-      "Motorcycle": false,
-      "Commercial Vehicle": false,
-      "EV Diagnostics": false,
-      "Oscilloscope": false,
-      "VCI Included": false,
-      "Wireless Bluetooth": false,
-      "CAN FD": false,
-      "DoIP": false
-    },
-    "feature_tags": [
-      "ADAS",
-      "LDW Calibration"
-    ],
-    "related_products": [],
-    "compatible_devices": [
-      "launch-x431-adas-mobile"
-    ],
-    "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-12-l.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
-  },
-  {
-    "id": "launch-ldw-target-lam01-12-r",
-    "type": "accessory",
-    "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-12-R - Nissan/Renault",
-    "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
-    "availability": "Unavailable",
-    "price_nzd_ex_gst": 0,
-    "subscription_nzd_ex_gst": 0,
-    "positioning": "Nissan/Renault ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-12-R target for Nissan/Renault lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
-    "best_for": [
-      "Launch ADAS Mobile calibration"
-    ],
-    "features": {
-      "J2534": false,
-      "Online Programming": false,
-      "Topology": false,
-      "ADAS": true,
-      "TPMS": false,
-      "Key Programming": "No",
-      "Heavy Duty": false,
-      "Remote Diagnosis": false,
-      "Battery Testing": false,
-      "Motorcycle": false,
-      "Commercial Vehicle": false,
-      "EV Diagnostics": false,
-      "Oscilloscope": false,
-      "VCI Included": false,
-      "Wireless Bluetooth": false,
-      "CAN FD": false,
-      "DoIP": false
-    },
-    "feature_tags": [
-      "ADAS",
-      "LDW Calibration"
-    ],
-    "related_products": [],
-    "compatible_devices": [
-      "launch-x431-adas-mobile"
-    ],
-    "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-12-r.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
-  },
-  {
-    "id": "launch-ldw-target-lam01-23-l",
-    "type": "accessory",
-    "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-23-L - Sprinter LDW",
-    "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
-    "availability": "Unavailable",
-    "price_nzd_ex_gst": 0,
-    "subscription_nzd_ex_gst": 0,
-    "positioning": "Sprinter LDW ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-23-L target for Sprinter LDW lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
-    "best_for": [
-      "Launch ADAS Mobile calibration"
-    ],
-    "features": {
-      "J2534": false,
-      "Online Programming": false,
-      "Topology": false,
-      "ADAS": true,
-      "TPMS": false,
-      "Key Programming": "No",
-      "Heavy Duty": false,
-      "Remote Diagnosis": false,
-      "Battery Testing": false,
-      "Motorcycle": false,
-      "Commercial Vehicle": false,
-      "EV Diagnostics": false,
-      "Oscilloscope": false,
-      "VCI Included": false,
-      "Wireless Bluetooth": false,
-      "CAN FD": false,
-      "DoIP": false
-    },
-    "feature_tags": [
-      "ADAS",
-      "LDW Calibration"
-    ],
-    "related_products": [],
-    "compatible_devices": [
-      "launch-x431-adas-mobile"
-    ],
-    "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-23-l.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
-  },
-  {
-    "id": "launch-ldw-target-lam01-23-r",
-    "type": "accessory",
-    "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-23-R - Sprinter LDW",
-    "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
-    "availability": "Unavailable",
-    "price_nzd_ex_gst": 0,
-    "subscription_nzd_ex_gst": 0,
-    "positioning": "Sprinter LDW ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-23-R target for Sprinter LDW lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
-    "best_for": [
-      "Launch ADAS Mobile calibration"
-    ],
-    "features": {
-      "J2534": false,
-      "Online Programming": false,
-      "Topology": false,
-      "ADAS": true,
-      "TPMS": false,
-      "Key Programming": "No",
-      "Heavy Duty": false,
-      "Remote Diagnosis": false,
-      "Battery Testing": false,
-      "Motorcycle": false,
-      "Commercial Vehicle": false,
-      "EV Diagnostics": false,
-      "Oscilloscope": false,
-      "VCI Included": false,
-      "Wireless Bluetooth": false,
-      "CAN FD": false,
-      "DoIP": false
-    },
-    "feature_tags": [
-      "ADAS",
-      "LDW Calibration"
-    ],
-    "related_products": [],
-    "compatible_devices": [
-      "launch-x431-adas-mobile"
-    ],
-    "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-23-r.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
-  },
-  {
-    "id": "launch-ldw-target-lam01-15",
-    "type": "accessory",
-    "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-15 - Subaru I",
-    "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
-    "availability": "Unavailable",
-    "price_nzd_ex_gst": 0,
-    "subscription_nzd_ex_gst": 0,
-    "positioning": "Subaru I ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-15 target for Subaru I lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
-    "best_for": [
-      "Launch ADAS Mobile calibration"
-    ],
-    "features": {
-      "J2534": false,
-      "Online Programming": false,
-      "Topology": false,
-      "ADAS": true,
-      "TPMS": false,
-      "Key Programming": "No",
-      "Heavy Duty": false,
-      "Remote Diagnosis": false,
-      "Battery Testing": false,
-      "Motorcycle": false,
-      "Commercial Vehicle": false,
-      "EV Diagnostics": false,
-      "Oscilloscope": false,
-      "VCI Included": false,
-      "Wireless Bluetooth": false,
-      "CAN FD": false,
-      "DoIP": false
-    },
-    "feature_tags": [
-      "ADAS",
-      "LDW Calibration"
-    ],
-    "related_products": [],
-    "compatible_devices": [
-      "launch-x431-adas-mobile"
-    ],
-    "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-15.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
-  },
-  {
-    "id": "launch-ldw-target-lam01-21",
-    "type": "accessory",
-    "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-21 - Subaru LDW",
-    "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
-    "availability": "Unavailable",
-    "price_nzd_ex_gst": 0,
-    "subscription_nzd_ex_gst": 0,
-    "positioning": "Subaru LDW ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-21 target for Subaru LDW lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
-    "best_for": [
-      "Launch ADAS Mobile calibration"
-    ],
-    "features": {
-      "J2534": false,
-      "Online Programming": false,
-      "Topology": false,
-      "ADAS": true,
-      "TPMS": false,
-      "Key Programming": "No",
-      "Heavy Duty": false,
-      "Remote Diagnosis": false,
-      "Battery Testing": false,
-      "Motorcycle": false,
-      "Commercial Vehicle": false,
-      "EV Diagnostics": false,
-      "Oscilloscope": false,
-      "VCI Included": false,
-      "Wireless Bluetooth": false,
-      "CAN FD": false,
-      "DoIP": false
-    },
-    "feature_tags": [
-      "ADAS",
-      "LDW Calibration"
-    ],
-    "related_products": [],
-    "compatible_devices": [
-      "launch-x431-adas-mobile"
-    ],
-    "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-21.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
-  },
-  {
-    "id": "launch-ldw-target-lam01-18-l",
-    "type": "accessory",
-    "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-18-L - Suzuki",
-    "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
-    "availability": "Unavailable",
-    "price_nzd_ex_gst": 0,
-    "subscription_nzd_ex_gst": 0,
-    "positioning": "Suzuki ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-18-L target for Suzuki lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
-    "best_for": [
-      "Launch ADAS Mobile calibration"
-    ],
-    "features": {
-      "J2534": false,
-      "Online Programming": false,
-      "Topology": false,
-      "ADAS": true,
-      "TPMS": false,
-      "Key Programming": "No",
-      "Heavy Duty": false,
-      "Remote Diagnosis": false,
-      "Battery Testing": false,
-      "Motorcycle": false,
-      "Commercial Vehicle": false,
-      "EV Diagnostics": false,
-      "Oscilloscope": false,
-      "VCI Included": false,
-      "Wireless Bluetooth": false,
-      "CAN FD": false,
-      "DoIP": false
-    },
-    "feature_tags": [
-      "ADAS",
-      "LDW Calibration"
-    ],
-    "related_products": [],
-    "compatible_devices": [
-      "launch-x431-adas-mobile"
-    ],
-    "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-18-l.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
-  },
-  {
-    "id": "launch-ldw-target-lam01-18-r",
-    "type": "accessory",
-    "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-18-R - Suzuki",
-    "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
-    "availability": "Unavailable",
-    "price_nzd_ex_gst": 0,
-    "subscription_nzd_ex_gst": 0,
-    "positioning": "Suzuki ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-18-R target for Suzuki lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
-    "best_for": [
-      "Launch ADAS Mobile calibration"
-    ],
-    "features": {
-      "J2534": false,
-      "Online Programming": false,
-      "Topology": false,
-      "ADAS": true,
-      "TPMS": false,
-      "Key Programming": "No",
-      "Heavy Duty": false,
-      "Remote Diagnosis": false,
-      "Battery Testing": false,
-      "Motorcycle": false,
-      "Commercial Vehicle": false,
-      "EV Diagnostics": false,
-      "Oscilloscope": false,
-      "VCI Included": false,
-      "Wireless Bluetooth": false,
-      "CAN FD": false,
-      "DoIP": false
-    },
-    "feature_tags": [
-      "ADAS",
-      "LDW Calibration"
-    ],
-    "related_products": [],
-    "compatible_devices": [
-      "launch-x431-adas-mobile"
-    ],
-    "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-18-r.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
-  },
-  {
-    "id": "launch-ldw-target-lam01-25",
-    "type": "accessory",
-    "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-25 - Suzuki LDW",
-    "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
-    "availability": "Unavailable",
-    "price_nzd_ex_gst": 0,
-    "subscription_nzd_ex_gst": 0,
-    "positioning": "Suzuki LDW ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-25 target for Suzuki LDW lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
-    "best_for": [
-      "Launch ADAS Mobile calibration"
-    ],
-    "features": {
-      "J2534": false,
-      "Online Programming": false,
-      "Topology": false,
-      "ADAS": true,
-      "TPMS": false,
-      "Key Programming": "No",
-      "Heavy Duty": false,
-      "Remote Diagnosis": false,
-      "Battery Testing": false,
-      "Motorcycle": false,
-      "Commercial Vehicle": false,
-      "EV Diagnostics": false,
-      "Oscilloscope": false,
-      "VCI Included": false,
-      "Wireless Bluetooth": false,
-      "CAN FD": false,
-      "DoIP": false
-    },
-    "feature_tags": [
-      "ADAS",
-      "LDW Calibration"
-    ],
-    "related_products": [],
-    "compatible_devices": [
-      "launch-x431-adas-mobile"
-    ],
-    "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-25.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
-  },
-  {
-    "id": "launch-ldw-target-lam09-08",
-    "type": "accessory",
-    "brand": "Launch",
-    "name": "ADAS Target Extension Rod LAM09-08 - Target Extension Rod I",
-    "category": "ADAS & Alignment",
-    "product_type": "ADAS Target Extension Rod",
-    "product_series": "X-431 ADAS Mobile Targets",
-    "availability": "Unavailable",
-    "price_nzd_ex_gst": 0,
-    "subscription_nzd_ex_gst": 0,
-    "positioning": "Target Extension Rod I adas target extension rod for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM09-08 target for Target Extension Rod I lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
-    "best_for": [
-      "Launch ADAS Mobile calibration"
-    ],
-    "features": {
-      "J2534": false,
-      "Online Programming": false,
-      "Topology": false,
-      "ADAS": true,
-      "TPMS": false,
-      "Key Programming": "No",
-      "Heavy Duty": false,
-      "Remote Diagnosis": false,
-      "Battery Testing": false,
-      "Motorcycle": false,
-      "Commercial Vehicle": false,
-      "EV Diagnostics": false,
-      "Oscilloscope": false,
-      "VCI Included": false,
-      "Wireless Bluetooth": false,
-      "CAN FD": false,
-      "DoIP": false
-    },
-    "feature_tags": [
-      "ADAS",
-      "LDW Calibration"
-    ],
-    "related_products": [],
-    "compatible_devices": [
-      "launch-x431-adas-mobile"
-    ],
-    "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam09-08.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
-  },
-  {
-    "id": "launch-ldw-target-lam09-09",
-    "type": "accessory",
-    "brand": "Launch",
-    "name": "ADAS Target Extension Rod LAM09-09 - Target Extension Rod II",
-    "category": "ADAS & Alignment",
-    "product_type": "ADAS Target Extension Rod",
-    "product_series": "X-431 ADAS Mobile Targets",
-    "availability": "Unavailable",
-    "price_nzd_ex_gst": 0,
-    "subscription_nzd_ex_gst": 0,
-    "positioning": "Target Extension Rod II adas target extension rod for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM09-09 target for Target Extension Rod II lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
-    "best_for": [
-      "Launch ADAS Mobile calibration"
-    ],
-    "features": {
-      "J2534": false,
-      "Online Programming": false,
-      "Topology": false,
-      "ADAS": true,
-      "TPMS": false,
-      "Key Programming": "No",
-      "Heavy Duty": false,
-      "Remote Diagnosis": false,
-      "Battery Testing": false,
-      "Motorcycle": false,
-      "Commercial Vehicle": false,
-      "EV Diagnostics": false,
-      "Oscilloscope": false,
-      "VCI Included": false,
-      "Wireless Bluetooth": false,
-      "CAN FD": false,
-      "DoIP": false
-    },
-    "feature_tags": [
-      "ADAS",
-      "LDW Calibration"
-    ],
-    "related_products": [],
-    "compatible_devices": [
-      "launch-x431-adas-mobile"
-    ],
-    "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam09-09.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
-  },
-  {
-    "id": "launch-ldw-target-lam01-06-1",
-    "type": "accessory",
-    "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-06-1 - Toyota I",
-    "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
-    "availability": "Unavailable",
-    "price_nzd_ex_gst": 0,
-    "subscription_nzd_ex_gst": 0,
-    "positioning": "Toyota I ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-06-1 target for Toyota I lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
-    "best_for": [
-      "Launch ADAS Mobile calibration"
-    ],
-    "features": {
-      "J2534": false,
-      "Online Programming": false,
-      "Topology": false,
-      "ADAS": true,
-      "TPMS": false,
-      "Key Programming": "No",
-      "Heavy Duty": false,
-      "Remote Diagnosis": false,
-      "Battery Testing": false,
-      "Motorcycle": false,
-      "Commercial Vehicle": false,
-      "EV Diagnostics": false,
-      "Oscilloscope": false,
-      "VCI Included": false,
-      "Wireless Bluetooth": false,
-      "CAN FD": false,
-      "DoIP": false
-    },
-    "feature_tags": [
-      "ADAS",
-      "LDW Calibration"
-    ],
-    "related_products": [],
-    "compatible_devices": [
-      "launch-x431-adas-mobile"
-    ],
-    "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-06-1.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
-  },
-  {
-    "id": "launch-ldw-target-lam01-06-2",
-    "type": "accessory",
-    "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-06-2 - Toyota II",
-    "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
-    "availability": "Unavailable",
-    "price_nzd_ex_gst": 0,
-    "subscription_nzd_ex_gst": 0,
-    "positioning": "Toyota II ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-06-2 target for Toyota II lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
-    "best_for": [
-      "Launch ADAS Mobile calibration"
-    ],
-    "features": {
-      "J2534": false,
-      "Online Programming": false,
-      "Topology": false,
-      "ADAS": true,
-      "TPMS": false,
-      "Key Programming": "No",
-      "Heavy Duty": false,
-      "Remote Diagnosis": false,
-      "Battery Testing": false,
-      "Motorcycle": false,
-      "Commercial Vehicle": false,
-      "EV Diagnostics": false,
-      "Oscilloscope": false,
-      "VCI Included": false,
-      "Wireless Bluetooth": false,
-      "CAN FD": false,
-      "DoIP": false
-    },
-    "feature_tags": [
-      "ADAS",
-      "LDW Calibration"
-    ],
-    "related_products": [],
-    "compatible_devices": [
-      "launch-x431-adas-mobile"
-    ],
-    "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-06-2.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. Matched to Excel SKU: LAUNCH LDW Toyota LAM01-06-2."
-  },
-  {
-    "id": "launch-ldw-target-lam01-06-3",
-    "type": "accessory",
-    "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-06-3 - Toyota III",
-    "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
-    "availability": "Unavailable",
-    "price_nzd_ex_gst": 0,
-    "subscription_nzd_ex_gst": 0,
-    "positioning": "Toyota III ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-06-3 target for Toyota III lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
-    "best_for": [
-      "Launch ADAS Mobile calibration"
-    ],
-    "features": {
-      "J2534": false,
-      "Online Programming": false,
-      "Topology": false,
-      "ADAS": true,
-      "TPMS": false,
-      "Key Programming": "No",
-      "Heavy Duty": false,
-      "Remote Diagnosis": false,
-      "Battery Testing": false,
-      "Motorcycle": false,
-      "Commercial Vehicle": false,
-      "EV Diagnostics": false,
-      "Oscilloscope": false,
-      "VCI Included": false,
-      "Wireless Bluetooth": false,
-      "CAN FD": false,
-      "DoIP": false
-    },
-    "feature_tags": [
-      "ADAS",
-      "LDW Calibration"
-    ],
-    "related_products": [],
-    "compatible_devices": [
-      "launch-x431-adas-mobile"
-    ],
-    "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-06-3.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
-  },
-  {
-    "id": "launch-ldw-target-lam01-02",
-    "type": "accessory",
-    "brand": "Launch",
-    "name": "LDW Calibration Target LAM01-02 - Volkswagen",
-    "category": "ADAS & Alignment",
-    "product_type": "LDW Calibration Target",
-    "product_series": "X-431 ADAS Mobile Targets",
-    "availability": "Unavailable",
-    "price_nzd_ex_gst": 0,
-    "subscription_nzd_ex_gst": 0,
-    "positioning": "Volkswagen ldw calibration target for Launch X-431 ADAS Mobile calibration workflows.",
-    "public_description": "Launch LAM01-02 target for Volkswagen lane-departure warning calibration. Visual reference cropped from the Launch NZ X-431 ADAS Mobile specification sheet.",
-    "best_for": [
-      "Launch ADAS Mobile calibration"
-    ],
-    "features": {
-      "J2534": false,
-      "Online Programming": false,
-      "Topology": false,
-      "ADAS": true,
-      "TPMS": false,
-      "Key Programming": "No",
-      "Heavy Duty": false,
-      "Remote Diagnosis": false,
-      "Battery Testing": false,
-      "Motorcycle": false,
-      "Commercial Vehicle": false,
-      "EV Diagnostics": false,
-      "Oscilloscope": false,
-      "VCI Included": false,
-      "Wireless Bluetooth": false,
-      "CAN FD": false,
-      "DoIP": false
-    },
-    "feature_tags": [
-      "ADAS",
-      "LDW Calibration"
-    ],
-    "related_products": [],
-    "compatible_devices": [
-      "launch-x431-adas-mobile"
-    ],
-    "compatible_accessories": [],
-    "image": "images/launch-ldw-target-lam01-02.jpg",
-    "internal_notes": "Source: Launch NZ X-431 ADAS Mobile Specification. No one-to-one Excel SKU was provided; added as a visual target reference."
+    "image": "images/launch-adas-ldw-daihatsu-lam01-29.png",
+    "internal_notes": "Zoho account: Launch. Image and target name verified against ADAS Depot: https://adasdepot.comhttps://adasdepot.com/launch-tech-x-431-adas-daihatsu-ldw-target-lam01-29-701020252/"
   }
 ]

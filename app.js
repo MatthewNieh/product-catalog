@@ -384,14 +384,6 @@ function openProductModal(productId) {
       </div>
     </section>
 
-    ${product.specification_image
-      ? `<section class="modal__section specification-reference">
-          <h3>Specification Reference</h3>
-          <p>Reference image supplied from the verified product specification.</p>
-          <img src="${product.specification_image}" alt="${product.name} specification reference">
-        </section>`
-      : ""}
-
     <section class="modal__section detail-grid">
       <div class="detail-box">
         <strong>${product.type === "main" ? "Compatible Accessories" : "Compatible Devices"}</strong>
