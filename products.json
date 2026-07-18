@@ -8107,5 +8107,1901 @@
     "compatible_accessories": [],
     "image": "images/laser-reflector-board-csc1500-08.png",
     "internal_notes": "Zoho account: Nistech. Availability in source: blank. Source category: ADAS & Alignment."
+  },
+  {
+    "id": "launch-xprog-3",
+    "type": "accessory",
+    "brand": "Launch",
+    "name": "X-PROG 3",
+    "category": "Key Programming",
+    "product_type": "Key Programming Add-on",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "X-PROG 3  is a powerful chip reading device that can read/write keys to the vehicle. Compatible with X-431 series diagnostic scanners, X-PROG 3 enables Anti-theft type identification, R.",
+    "public_description": "X-PROG 3  is a powerful chip reading device that can read/write keys to the vehicle. Compatible with X-431 series diagnostic scanners, X-PROG 3 enables Anti-theft type identification, Remote control matching, Key chip reading & matching, anti-theft password reading and anti-theft component replacement.",
+    "best_for": [
+      "Compatible Launch service equipment"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "Basic",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Key Programming"
+    ],
+    "related_products": [],
+    "compatible_devices": [
+      "launch-x431-immo-pro"
+    ],
+    "compatible_accessories": [],
+    "image": "images/launch-xprog-3.png",
+    "internal_notes": "Zoho account: Launch. Source category: Accessories. Official Launch reference: i-40."
+  },
+  {
+    "id": "launch-x431-immo-pro",
+    "type": "main",
+    "brand": "Launch",
+    "name": "X-431 IMMO PRO",
+    "category": "Diagnostic Tools",
+    "product_type": "Immobilizer and Key Programming Tablet",
+    "product_series": "X-431",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "The X-431 IMMO PRO, another diagnostic scan tool from LAUNCH IMMO & Key Programming family, inherits complete features in IMMO functions and key programming, similar to the X-431 IMMO P.",
+    "public_description": "The X-431 IMMO PRO, another diagnostic scan tool from LAUNCH IMMO & Key Programming family, inherits complete features in IMMO functions and key programming, similar to the X-431 IMMO PAD. It also supports advanced OE-level vehicle diagnostics but provides slightly fewer features than the X-431 IMMO PAD.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": true,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "Basic",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Key Programming",
+      "Online Programming"
+    ],
+    "related_products": [
+      "launch-x431-pro-lite-v3",
+      "launch-x431-pro5-smartlink",
+      "launch-x431-immo-pad",
+      "launch-x431-pro3-se"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-x431-immo-pro.png",
+    "internal_notes": "Zoho account: Launch. Source category: Keys & Remotes. Official Launch reference: i-33."
+  },
+  {
+    "id": "launch-o2-1-scopebox",
+    "type": "accessory",
+    "brand": "Launch",
+    "name": "O2-1 Scopebox",
+    "category": "Specialty Tools",
+    "product_type": "Oscilloscope Module",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Featuring a new design and upgraded hardware, the LAUNCH O2-1 Scope Box is a versatile easy to use module that detects high level faults on various electrical components, such as sensor.",
+    "public_description": "Featuring a new design and upgraded hardware, the LAUNCH O2-1 Scope Box is a versatile easy to use module that detects high level faults on various electrical components, such as sensors, actuators and circuits. By integrating with the X-431 series scan tools via O2-1 application, the O2-1 delivers accurate and conclusive diagnostic faults that enable the shop and technician to enlarge its scan tool's functionality.",
+    "best_for": [
+      "Compatible Launch service equipment"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": true,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Oscilloscope"
+    ],
+    "related_products": [],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-o2-1-scopebox.png",
+    "internal_notes": "Zoho account: Launch. Source category: Specialty Tools. Official Launch reference: i-41."
+  },
+  {
+    "id": "launch-x431-pro-lite-v3",
+    "type": "main",
+    "brand": "Launch",
+    "name": "X-431 PRO Lite V3.0",
+    "category": "Diagnostic Tools",
+    "product_type": "Professional Diagnostic Scanner",
+    "product_series": "X-431",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "The X-431 PRO LITE V3.0 is a multi-functional diagnostic tool offering full functionality on all vehicle modules and complete diagnostic functions, which perfectly satisfies the demands.",
+    "public_description": "The X-431 PRO LITE V3.0 is a multi-functional diagnostic tool offering full functionality on all vehicle modules and complete diagnostic functions, which perfectly satisfies the demands of small repair shops, auto-body shops and at-home enthusiasts and technicians.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": true,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Topology"
+    ],
+    "related_products": [
+      "launch-x431-immo-pro",
+      "launch-x431-pro5-smartlink",
+      "launch-x431-immo-pad",
+      "launch-x431-pro3-se"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-x431-pro-lite-v3.png",
+    "internal_notes": "Zoho account: Launch. Source category: Advanced Diagnostics. Official Launch reference: i-34."
+  },
+  {
+    "id": "launch-x431-pro5-smartlink",
+    "type": "main",
+    "brand": "Launch",
+    "name": "X-431 PRO5 SmartLink",
+    "category": "Diagnostic Tools",
+    "product_type": "Advanced Diagnostic Scanner",
+    "product_series": "X-431",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Android-based professional scanner with SmartLink, J2534, DoIP and CAN FD support for full-system diagnostics.",
+    "public_description": "Android-based professional scanner with SmartLink, J2534, DoIP and CAN FD support for full-system diagnostics.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": true,
+      "Online Programming": true,
+      "Topology": false,
+      "ADAS": true,
+      "TPMS": true,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": true,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": true,
+      "DoIP": true
+    },
+    "feature_tags": [
+      "J2534",
+      "Online Programming",
+      "ADAS",
+      "TPMS",
+      "Commercial Vehicle",
+      "CAN FD",
+      "DoIP"
+    ],
+    "related_products": [
+      "launch-x431-immo-pro",
+      "launch-x431-pro-lite-v3",
+      "launch-x431-immo-pad",
+      "launch-x431-pro3-se"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [
+      "launch-xprog-3",
+      "launch-vsp-600-usb-endoscope",
+      "launch-bst360"
+    ],
+    "image": "images/launch-x431-pro5-smartlink.png",
+    "internal_notes": "Zoho account: Launch. Source category: Advanced Diagnostics. Official Launch reference: i-114."
+  },
+  {
+    "id": "launch-x431-immo-pad",
+    "type": "main",
+    "brand": "Launch",
+    "name": "X-431 IMMO PAD",
+    "category": "Diagnostic Tools",
+    "product_type": "Immobilizer and Key Programming Tablet",
+    "product_series": "X-431",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "The X-431 IMMO PAD is the flagship diagnostic scan from LAUNCH IMMO & Key Programming family for car security and immobilizer systems. It is not only capable of IMMO functions and key p.",
+    "public_description": "The X-431 IMMO PAD is the flagship diagnostic scan from LAUNCH IMMO & Key Programming family for car security and immobilizer systems. It is not only capable of IMMO functions and key programming, but also excellent at OE-level vehicle diagnostics.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "Basic",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Key Programming"
+    ],
+    "related_products": [
+      "launch-x431-immo-pro",
+      "launch-x431-pro-lite-v3",
+      "launch-x431-pro5-smartlink",
+      "launch-x431-pro3-se"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [
+      "launch-xprog-3"
+    ],
+    "image": "images/launch-x431-immo-pad.png",
+    "internal_notes": "Zoho account: Launch. Source category: Keys & Remotes. Official Launch reference: i-32."
+  },
+  {
+    "id": "launch-bst360",
+    "type": "accessory",
+    "brand": "Launch",
+    "name": "BST360 Bluetooth Battery Tester",
+    "category": "Battery Service",
+    "product_type": "Bluetooth Battery Tester",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "BST360, suitable for technicians and on the go consumers, is safe to use with its anti-heat characteristics and prevention against backfire electrical sparks that can occur during elect.",
+    "public_description": "BST360, suitable for technicians and on the go consumers, is safe to use with its anti-heat characteristics and prevention against backfire electrical sparks that can occur during electrical system diagnosis.",
+    "best_for": [
+      "Compatible Launch service equipment"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": true,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": true,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Battery Testing",
+      "Wireless Bluetooth"
+    ],
+    "related_products": [],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-bst360.png",
+    "internal_notes": "Zoho account: Launch. Source category: Battery Service. Official Launch reference: i-77."
+  },
+  {
+    "id": "launch-vsp-600-usb-endoscope",
+    "type": "accessory",
+    "brand": "Launch",
+    "name": "VSP-600 Video Scope",
+    "category": "Specialty Tools",
+    "product_type": "USB Video Scope",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "VSP600 video scope helps technicians to check issues on unreachable area in a vehicle. With 6 levels light strength, technicians can easily adjust the brightness according to the enviro.",
+    "public_description": "VSP600 video scope helps technicians to check issues on unreachable area in a vehicle. With 6 levels light strength, technicians can easily adjust the brightness according to the environment. It will work with LAUNCH X-431 scanners or any Android device and streams live video on it. Technicians can view, record and save images and videos.",
+    "best_for": [
+      "Compatible Launch service equipment"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Accessory Ecosystem"
+    ],
+    "related_products": [],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-vsp-600-usb-endoscope.png",
+    "internal_notes": "Zoho account: Launch. Source category: Specialty Tools. Official Launch reference: i-79."
+  },
+  {
+    "id": "launch-x431-pro3-se",
+    "type": "main",
+    "brand": "Launch",
+    "name": "X-431 PRO3 SE",
+    "category": "Diagnostic Tools",
+    "product_type": "Professional Diagnostic Scanner",
+    "product_series": "X-431",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Brand-new design with 10.1 inches sunlight readable gorilla glass screen and DoIP/CAN FD functions. The X-431 PRO3 SE is always the great choice for customers.",
+    "public_description": "Brand-new design with 10.1 inches sunlight readable gorilla glass screen and DoIP/CAN FD functions. The X-431 PRO3 SE is always the great choice for customers.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": true,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": true,
+      "DoIP": true
+    },
+    "feature_tags": [
+      "ADAS",
+      "CAN FD",
+      "DoIP"
+    ],
+    "related_products": [
+      "launch-x431-immo-pro",
+      "launch-x431-pro-lite-v3",
+      "launch-x431-pro5-smartlink",
+      "launch-x431-immo-pad"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-x431-pro3-se.png",
+    "internal_notes": "Zoho account: Launch. Source category: Advanced Diagnostics. Official Launch reference: i-225."
+  },
+  {
+    "id": "launch-x431-pro-se",
+    "type": "main",
+    "brand": "Launch",
+    "name": "X-431 PRO SE",
+    "category": "Diagnostic Tools",
+    "product_type": "Professional Diagnostic Scanner",
+    "product_series": "X-431",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Brand-new design with DoIP/CAN FD functions, the X-431 PRO SE will be the best choice for entry-level technicians.",
+    "public_description": "Brand-new design with DoIP/CAN FD functions, the X-431 PRO SE will be the best choice for entry-level technicians.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": true,
+      "DoIP": true
+    },
+    "feature_tags": [
+      "CAN FD",
+      "DoIP"
+    ],
+    "related_products": [
+      "launch-x431-immo-pro",
+      "launch-x431-pro-lite-v3",
+      "launch-x431-pro5-smartlink",
+      "launch-x431-immo-pad"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-x431-pro-se.png",
+    "internal_notes": "Zoho account: Launch. Source category: Advanced Diagnostics. Official Launch reference: i-206."
+  },
+  {
+    "id": "launch-x431-pro3-link-hd",
+    "type": "main",
+    "brand": "Launch",
+    "name": "X-431 PRO3 LINK HD",
+    "category": "Heavy Duty",
+    "product_type": "Heavy Duty Diagnostic Scanner",
+    "product_series": "X-431",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Meet the X-431 PRO3 LINK HD diagnostic scan tool with solid hardware and excellent software service. With the SmartLink C V2.0, it is designed for Commercial Vehicles Repairing & Diagno.",
+    "public_description": "Meet the X-431 PRO3 LINK HD diagnostic scan tool with solid hardware and excellent software service. With the SmartLink C V2.0, it is designed for Commercial Vehicles Repairing & Diagnostics.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": true,
+      "Remote Diagnosis": true,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": true,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Heavy Duty",
+      "Commercial Vehicle",
+      "Remote Diagnosis"
+    ],
+    "related_products": [
+      "launch-x431-pad5-link-hd"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-x431-pro3-link-hd.png",
+    "internal_notes": "Zoho account: Launch. Source category: Advanced Diagnostics. Official Launch reference: i-261."
+  },
+  {
+    "id": "launch-x431-pad5-link-hd",
+    "type": "main",
+    "brand": "Launch",
+    "name": "X-431 PAD5 LINK HD",
+    "category": "Heavy Duty",
+    "product_type": "Heavy Duty Diagnostic Scanner",
+    "product_series": "X-431",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Meet the X-431 PAD5 LINK HD diagnostic scan tool with solid hardware and excellent software service. With the SmartLink C V2.0, it is designed for Commercial Vehicles Repairing & Diagno.",
+    "public_description": "Meet the X-431 PAD5 LINK HD diagnostic scan tool with solid hardware and excellent software service. With the SmartLink C V2.0, it is designed for Commercial Vehicles Repairing & Diagnostics. Coming with 10.1‘’ IPS sunlight-readable touch screen with gorilla glass against scratch, smart diagnosing helps technicians get the repairing jobs done more easily and accurately. A rechargeable docking station is also included in the package.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": true,
+      "Remote Diagnosis": true,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": true,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Heavy Duty",
+      "Commercial Vehicle",
+      "Remote Diagnosis"
+    ],
+    "related_products": [
+      "launch-x431-pro3-link-hd"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-x431-pad5-link-hd.png",
+    "internal_notes": "Zoho account: Launch. Source category: Advanced Diagnostics. Official Launch reference: i-250."
+  },
+  {
+    "id": "launch-creader-tpms-511s-v2",
+    "type": "main",
+    "brand": "Launch",
+    "name": "Creader TPMS 511S V2",
+    "category": "TPMS",
+    "product_type": "TPMS Service Tool",
+    "product_series": "Creader",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Equipped with Android 8.1, the Creader TPMS 511S V2 is a standalone TPMS service and programming tool. It can activate, read, and relearn all known sensors on the market, and program LA.",
+    "public_description": "Equipped with Android 8.1, the Creader TPMS 511S V2 is a standalone TPMS service and programming tool. It can activate, read, and relearn all known sensors on the market, and program LAUNCH sensors an unlimited number of times to replace OE sensors. It is one of the top TPMS service tools for repair shops looking to expand their tire business, as well as a great option for tire shops.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": true,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "TPMS"
+    ],
+    "related_products": [
+      "launch-itpms",
+      "launch-tread-master",
+      "launch-tread-master-2"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [
+      "launch-tsensor-03-rubber",
+      "launch-tsensor-03-metal-black",
+      "launch-tsensor-05-metal-silver",
+      "launch-tsensor-05-rubber-black",
+      "launch-tsensor-b-tesla"
+    ],
+    "image": "images/launch-creader-tpms-511s-v2.png",
+    "internal_notes": "Zoho account: Launch. Source category: TPMS. Official Launch reference: i-327."
+  },
+  {
+    "id": "launch-tsensor-03-rubber",
+    "type": "accessory",
+    "brand": "Launch",
+    "name": "LAUNCH TSENSOR-03",
+    "category": "TPMS",
+    "product_type": "TPMS Sensor",
+    "product_series": "TSENSOR",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "The LAUNCH TSENSOR-03 is LAUNCH own designed and produced RF-sensor, offering the best TPMS solutions for any shop performing TPMS repair service.",
+    "public_description": "The LAUNCH TSENSOR-03 is LAUNCH own designed and produced RF-sensor, offering the best TPMS solutions for any shop performing TPMS repair service.",
+    "best_for": [
+      "Compatible Launch service equipment"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": true,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "TPMS"
+    ],
+    "related_products": [],
+    "compatible_devices": [
+      "launch-creader-tpms-511s-v2"
+    ],
+    "compatible_accessories": [],
+    "image": "images/launch-tsensor-03-rubber.png",
+    "internal_notes": "Zoho account: Launch. Source category: TPMS. Official Launch reference: i-229."
+  },
+  {
+    "id": "launch-tsensor-03-metal-black",
+    "type": "accessory",
+    "brand": "Launch",
+    "name": "LAUNCH TSENSOR-03",
+    "category": "TPMS",
+    "product_type": "TPMS Sensor",
+    "product_series": "TSENSOR",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "The LAUNCH TSENSOR-03 is LAUNCH own designed and produced RF-sensor, offering the best TPMS solutions for any shop performing TPMS repair service.",
+    "public_description": "The LAUNCH TSENSOR-03 is LAUNCH own designed and produced RF-sensor, offering the best TPMS solutions for any shop performing TPMS repair service.",
+    "best_for": [
+      "Compatible Launch service equipment"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": true,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "TPMS"
+    ],
+    "related_products": [],
+    "compatible_devices": [
+      "launch-creader-tpms-511s-v2"
+    ],
+    "compatible_accessories": [],
+    "image": "images/launch-tsensor-03-metal-black.png",
+    "internal_notes": "Zoho account: Launch. Source category: TPMS. Official Launch reference: i-229."
+  },
+  {
+    "id": "launch-o2-2-scopebox",
+    "type": "accessory",
+    "brand": "Launch",
+    "name": "O2-2 Scopebox",
+    "category": "Specialty Tools",
+    "product_type": "Oscilloscope Module",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Featuring a new design and upgraded hardware, the LAUNCH O2-2 Scopebox is a versatile and easy to use add-on module that can detects high level faults on various electrical components,.",
+    "public_description": "Featuring a new design and upgraded hardware, the LAUNCH O2-2 Scopebox is a versatile and easy to use add-on module that can detects high level faults on various electrical components, such as sensors, acturators and circuits. By integrating with the X-431 series scan tools via O2-2 application, it delivers accurate and conclusive diagnostic faults that enable the shop and technician to enlarge their scan tool's functionality.",
+    "best_for": [
+      "Compatible Launch service equipment"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": true,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Oscilloscope"
+    ],
+    "related_products": [],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-o2-2-scopebox.png",
+    "internal_notes": "Zoho account: Launch. Source category: Specialty Tools. Official Launch reference: i-210."
+  },
+  {
+    "id": "launch-vsp-828",
+    "type": "accessory",
+    "brand": "Launch",
+    "name": "VSP-828",
+    "category": "Specialty Tools",
+    "product_type": "Video Scope",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "The VSP-828 videoscope is designed for accessing narrow, curved spaces like evaporation boxes, combustion chambers, and three-way catalytic sensors. It captures vivid, clear and multi-a.",
+    "public_description": "The VSP-828 videoscope is designed for accessing narrow, curved spaces like evaporation boxes, combustion chambers, and three-way catalytic sensors. It captures vivid, clear and multi-angle videos and images, tansferring them to a computer or samrtphone display via a data cable for versatile inspections. Three versions with varing lens tubes are available for your choice.\nThree lens versions for choice:\n· 6.2mm Rotating Lens Version(RECOMMENDED)\n· 5.5mm Dual-lens Version(Switch between front and side)\n· 5.5mm Standard Version(SIngle direction)",
+    "best_for": [
+      "Compatible Launch service equipment"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Accessory Ecosystem"
+    ],
+    "related_products": [],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-vsp-828.png",
+    "internal_notes": "Zoho account: Launch. Source category: Accessories. Official Launch reference: i-266."
+  },
+  {
+    "id": "launch-tsensor-05-metal-silver",
+    "type": "accessory",
+    "brand": "Launch",
+    "name": "LAUNCH TSENSOR-05",
+    "category": "TPMS",
+    "product_type": "TPMS Sensor",
+    "product_series": "TSENSOR",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "In four colors, the LAUNCH TSENSOR-05 is a programmable universal TPMS sensor that combines 315MHz and 433MHz frequencies. It's reprogrammable via a LAUNCH TPMS tool for unlimited OE se.",
+    "public_description": "In four colors, the LAUNCH TSENSOR-05 is a programmable universal TPMS sensor that combines 315MHz and 433MHz frequencies. It's reprogrammable via a LAUNCH TPMS tool for unlimited OE sensor replacements. Real-time sensor data, such as pressure and temperature, can be read when the sensor is detected by a LAUNCH TPMS service tool.",
+    "best_for": [
+      "Compatible Launch service equipment"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": true,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "TPMS"
+    ],
+    "related_products": [],
+    "compatible_devices": [
+      "launch-creader-tpms-511s-v2"
+    ],
+    "compatible_accessories": [],
+    "image": "images/launch-tsensor-05-metal-silver.png",
+    "internal_notes": "Zoho account: Launch. Source category: TPMS. Official Launch reference: i-276."
+  },
+  {
+    "id": "launch-tsensor-05-rubber-black",
+    "type": "accessory",
+    "brand": "Launch",
+    "name": "LAUNCH TSENSOR-05",
+    "category": "TPMS",
+    "product_type": "TPMS Sensor",
+    "product_series": "TSENSOR",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "In four colors, the LAUNCH TSENSOR-05 is a programmable universal TPMS sensor that combines 315MHz and 433MHz frequencies. It's reprogrammable via a LAUNCH TPMS tool for unlimited OE se.",
+    "public_description": "In four colors, the LAUNCH TSENSOR-05 is a programmable universal TPMS sensor that combines 315MHz and 433MHz frequencies. It's reprogrammable via a LAUNCH TPMS tool for unlimited OE sensor replacements. Real-time sensor data, such as pressure and temperature, can be read when the sensor is detected by a LAUNCH TPMS service tool.",
+    "best_for": [
+      "Compatible Launch service equipment"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": true,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "TPMS"
+    ],
+    "related_products": [],
+    "compatible_devices": [
+      "launch-creader-tpms-511s-v2"
+    ],
+    "compatible_accessories": [],
+    "image": "images/launch-tsensor-05-rubber-black.png",
+    "internal_notes": "Zoho account: Launch. Source category: TPMS. Official Launch reference: i-276."
+  },
+  {
+    "id": "launch-itpms",
+    "type": "main",
+    "brand": "Launch",
+    "name": "i-TPMS",
+    "category": "TPMS",
+    "product_type": "TPMS Service Tool",
+    "product_series": "TSENSOR",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "The i-TPMS provides professional and comprehensive TPMS services for repair shops to develop their TPMS business. It can program LAUNCH LTR RF sensors for unlimited times to replace OE.",
+    "public_description": "The i-TPMS provides professional and comprehensive TPMS services for repair shops to develop their TPMS business. It can program LAUNCH LTR RF sensors for unlimited times to replace OE sensors. The sensor data can be read instantly and accurately, including sensor ID, tire pressure, tire temperature, battery status, etc.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": true,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "TPMS"
+    ],
+    "related_products": [
+      "launch-creader-tpms-511s-v2",
+      "launch-tread-master",
+      "launch-tread-master-2"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-itpms.png",
+    "internal_notes": "Zoho account: Launch. Source category: TPMS. Official Launch reference: i-271."
+  },
+  {
+    "id": "launch-crp919-max",
+    "type": "main",
+    "brand": "Launch",
+    "name": "Creader Professional 919 MAX",
+    "category": "Diagnostic Tools",
+    "product_type": "Professional Diagnostic Scanner",
+    "product_series": "Creader",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "The CRP 919 MAX is one of the best choices for entry-level technicians, featuring all system full functionality for comprehensive and professional diagnostic business and services. It i.",
+    "public_description": "The CRP 919 MAX is one of the best choices for entry-level technicians, featuring all system full functionality for comprehensive and professional diagnostic business and services. It is currently compatible with four add-on modules: VSP-600, X-431 TSGUN, BST 360 Bluetooth Battery Tester. and O2-2 Scopebox.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": true,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": true,
+      "DoIP": true
+    },
+    "feature_tags": [
+      "TPMS",
+      "CAN FD",
+      "DoIP"
+    ],
+    "related_products": [
+      "launch-x431-immo-pro",
+      "launch-x431-pro-lite-v3",
+      "launch-x431-pro5-smartlink",
+      "launch-x431-immo-pad"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [
+      "launch-o2-2-scopebox",
+      "launch-bst360"
+    ],
+    "image": "images/launch-crp919-max.png",
+    "internal_notes": "Zoho account: Launch. Source category: Advanced Diagnostics. Official Launch reference: i-269."
+  },
+  {
+    "id": "launch-x431-ecu-tcu-programmer",
+    "type": "main",
+    "brand": "Launch",
+    "name": "X-431 ECU & TCU Programmer",
+    "category": "Diagnostic Tools",
+    "product_type": "ECU and TCU Programming Tool",
+    "product_series": "X-431",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "The X-431 ECU & TCU Programmer supports ECUs data reading & writing quickly, including reading the chip ID and backing up the EEPROM\ndata, backing up the FLASH data and restoring EEPROM.",
+    "public_description": "The X-431 ECU & TCU Programmer supports ECUs data reading & writing quickly, including reading the chip ID and backing up the EEPROM\ndata, backing up the FLASH data and restoring EEPROM/FLASH data. There are two methods to read various vehicle brand ECUs info. The X-431 ECU & TCU Programmer also supports Data Processing, anti-theft shutdown and file verification.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": true,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "Basic",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Online Programming",
+      "Key Programming"
+    ],
+    "related_products": [
+      "launch-x431-immo-pro",
+      "launch-x431-pro-lite-v3",
+      "launch-x431-pro5-smartlink",
+      "launch-x431-immo-pad"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-x431-ecu-tcu-programmer.png",
+    "internal_notes": "Zoho account: Launch. Source category: Diagnostic Tools. Official Launch reference: i-243."
+  },
+  {
+    "id": "launch-x431-pro3-link",
+    "type": "main",
+    "brand": "Launch",
+    "name": "X-431 PRO3 LINK",
+    "category": "Diagnostic Tools",
+    "product_type": "Dual Mode Diagnostic Scanner",
+    "product_series": "X-431",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "With the innovative revolution of intelligent diagnosis, the X-431 PRO3 LINK takes dual diagnostic modes (local diagnosis and Smartlink remote diagnosis). It not only inherits the power.",
+    "public_description": "With the innovative revolution of intelligent diagnosis, the X-431 PRO3 LINK takes dual diagnostic modes (local diagnosis and Smartlink remote diagnosis). It not only inherits the powerful diagnostic strength of the PRO series, but also supports Smartlink remote diagnosis which expands diagnostic functions with high-end X-431 scanners, third-party scanners, and OE software.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": true,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": true,
+      "DoIP": true
+    },
+    "feature_tags": [
+      "Remote Diagnosis",
+      "CAN FD",
+      "DoIP"
+    ],
+    "related_products": [
+      "launch-x431-immo-pro",
+      "launch-x431-pro-lite-v3",
+      "launch-x431-pro5-smartlink",
+      "launch-x431-immo-pad"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-x431-pro3-link.png",
+    "internal_notes": "Zoho account: Launch. Source category: Advanced Diagnostics. Official Launch reference: i-226."
+  },
+  {
+    "id": "launch-x431-pad9-link",
+    "type": "main",
+    "brand": "Launch",
+    "name": "X-431 PAD9 LINK",
+    "category": "Diagnostic Tools",
+    "product_type": "Flagship Diagnostic Scanner",
+    "product_series": "X-431",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "The X-431 PAD9 LINK is a new flagship high-end diagnostic tool from LAUNCH, coming with a new smart VCI-SmartLink C V3.0, which takes more enhanced WIFI communication and more secure co.",
+    "public_description": "The X-431 PAD9 LINK is a new flagship high-end diagnostic tool from LAUNCH, coming with a new smart VCI-SmartLink C V3.0, which takes more enhanced WIFI communication and more secure connection. The X-431 PAD9 LINK scan tool with multi-channel system scanning speeds up by about 10 times. The auto repair shops can use it to diagnose passenger cars, commercial vehicles, and new energy vehicles on the market.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": true,
+      "TPMS": true,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": true,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": true,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": true,
+      "DoIP": true
+    },
+    "feature_tags": [
+      "ADAS",
+      "TPMS",
+      "Remote Diagnosis",
+      "Commercial Vehicle",
+      "CAN FD",
+      "DoIP"
+    ],
+    "related_products": [
+      "launch-x431-immo-pro",
+      "launch-x431-pro-lite-v3",
+      "launch-x431-pro5-smartlink",
+      "launch-x431-immo-pad"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-x431-pad9-link.png",
+    "internal_notes": "Zoho account: Launch. Source category: Advanced Diagnostics. Official Launch reference: i-301."
+  },
+  {
+    "id": "launch-tread-master",
+    "type": "main",
+    "brand": "Launch",
+    "name": "Tread Master",
+    "category": "TPMS",
+    "product_type": "Tyre Tread Depth Scanner",
+    "product_series": "TSENSOR",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "LAUNCH Tread Master is a handheld tire tread depth laser measuring tool with an accuracy of up to 0.1mm, capable of performing full surface measurements. With no tire disassembly or lif.",
+    "public_description": "LAUNCH Tread Master is a handheld tire tread depth laser measuring tool with an accuracy of up to 0.1mm, capable of performing full surface measurements. With no tire disassembly or lifting, the operation is flexible and easy. Its innovative structural design eliminated the limitation of the chassis height, utilizing linear laser scanning to complete the full tire surface measurement in one go.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": true,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "TPMS"
+    ],
+    "related_products": [
+      "launch-creader-tpms-511s-v2",
+      "launch-itpms",
+      "launch-tread-master-2"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-tread-master.png",
+    "internal_notes": "Zoho account: Launch. Source category: Accessories. Official Launch reference: i-309."
+  },
+  {
+    "id": "launch-x431-pro-se-lite",
+    "type": "main",
+    "brand": "Launch",
+    "name": "X-431 PRO SE LITE",
+    "category": "Diagnostic Tools",
+    "product_type": "Professional Diagnostic Scanner",
+    "product_series": "X-431",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "The X-431 PRO SE LITE is another one of the best choices for auto shops focusing on repairing passenger cars business. It offers all system full functionality for comprehensive and prof.",
+    "public_description": "The X-431 PRO SE LITE is another one of the best choices for auto shops focusing on repairing passenger cars business. It offers all system full functionality for comprehensive and professional diagnostic services, compatible with 4 add-on modules: VSP-600, X-431 TSGUN, BST 360 Bluetooth Battery Tester, and X-PROG 3.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": true,
+      "DoIP": true
+    },
+    "feature_tags": [
+      "CAN FD",
+      "DoIP"
+    ],
+    "related_products": [
+      "launch-x431-immo-pro",
+      "launch-x431-pro-lite-v3",
+      "launch-x431-pro5-smartlink",
+      "launch-x431-immo-pad"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [
+      "launch-vsp-600-usb-endoscope",
+      "launch-bst360",
+      "launch-xprog-3"
+    ],
+    "image": "images/launch-x431-pro-se-lite.png",
+    "internal_notes": "Zoho account: Launch. Source category: Advanced Diagnostics. Official Launch reference: i-315."
+  },
+  {
+    "id": "launch-em101n",
+    "type": "main",
+    "brand": "Launch",
+    "name": "EM101N",
+    "category": "EV Tool",
+    "product_type": "EV Oscilloscope and Multimeter",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "The detection and maintenance of the power system is important for new energy vehicles. By viewing the waveform diagram, the maintenance progress can be improved. This product integrate.",
+    "public_description": "The detection and maintenance of the power system is important for new energy vehicles. By viewing the waveform diagram, the maintenance progress can be improved. This product integrates the functions of a multimeter and a dual-channel oscilloscope, which can be used for two purposes. The brand-new diagnostic APP is user-friendly, easy to use and convenient, supports the function of saving and opening waveforms locally.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": true,
+      "Oscilloscope": true,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "EV Diagnostics",
+      "Oscilloscope"
+    ],
+    "related_products": [
+      "launch-evp711",
+      "launch-x431-pro3-link-ev",
+      "launch-crp919-ev",
+      "launch-elb300"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-em101n.png",
+    "internal_notes": "Zoho account: Launch. Source category: Specialty Tools. Official Launch reference: i-235."
+  },
+  {
+    "id": "launch-x431-adas-radar-3in1",
+    "type": "main",
+    "brand": "Launch",
+    "name": "X-431 ADAS RADAR 3IN1",
+    "category": "ADAS & Alignment",
+    "product_type": "ADAS Calibration Tool",
+    "product_series": "X-431",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "A compact, lightweight, and user-friendly 3-in-1 package is designed specifically for radar system calibrations in passenger cars, sharing the same main unit frame and supporting calibr.",
+    "public_description": "A compact, lightweight, and user-friendly 3-in-1 package is designed specifically for radar system calibrations in passenger cars, sharing the same main unit frame and supporting calibrations for multiple radar systems, including ACC and BSD systems.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": true,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "ADAS"
+    ],
+    "related_products": [
+      "launch-x613-wheel-aligner",
+      "launch-x431-adas-mobile-plus"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-x431-adas-radar-3in1.png",
+    "internal_notes": "Zoho account: Launch. Source category: ADAS & Alignment. Official Launch reference: i-323."
+  },
+  {
+    "id": "launch-x431-key-programmer",
+    "type": "main",
+    "brand": "Launch",
+    "name": "X-431 Key Programmer",
+    "category": "Diagnostic Tools",
+    "product_type": "Key Programming Tool",
+    "product_series": "X-431",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Launch newly released a universal smart key that can be programmed to replace smart keys for different makes & models. Easy to read and write KEY information with Launch X-431 Key Progr.",
+    "public_description": "Launch newly released a universal smart key that can be programmed to replace smart keys for different makes & models. Easy to read and write KEY information with Launch X-431 Key Programmer.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "Basic",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Key Programming"
+    ],
+    "related_products": [
+      "launch-x431-immo-pro",
+      "launch-x431-pro-lite-v3",
+      "launch-x431-pro5-smartlink",
+      "launch-x431-immo-pad"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-x431-key-programmer.png",
+    "internal_notes": "Zoho account: Launch. Source category: Keys & Remotes. Official Launch reference: i-252."
+  },
+  {
+    "id": "launch-evp711",
+    "type": "main",
+    "brand": "Launch",
+    "name": "EVP711",
+    "category": "EV Tool",
+    "product_type": "EV Battery Charger and Discharger",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "When the detection tool indicates an issue with the internal cells of the battery pack, technicians typically replace the entire module (as repairing individual cells is challenging and.",
+    "public_description": "When the detection tool indicates an issue with the internal cells of the battery pack, technicians typically replace the entire module (as repairing individual cells is challenging and time-consuming, hereby ref. to EVB624/ELB300 for cells balancing). After replacing the module, the EVP711 can be used for balancing. Once the voltage of the module is consistent, it can be installed into the vehicle.\nDuring the balancing process with the balancer, it may take a considerable amount of time to complete. In such cases, you can use the EVP711 to charge the battery module first. When the voltage levels are approximately equal, use an equalizer(such as EVB624/ELB300) to balance the cell voltage consistency. Combining the use of the equalizer and the charge&discharge tool improves repair efficiency.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": true,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": true,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "EV Diagnostics",
+      "Battery Testing"
+    ],
+    "related_products": [
+      "launch-em101n",
+      "launch-x431-pro3-link-ev",
+      "launch-crp919-ev",
+      "launch-elb300"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-evp711.png",
+    "internal_notes": "Zoho account: Launch. Source category: Battery Service. Official Launch reference: i-305."
+  },
+  {
+    "id": "launch-x431-pro3-link-ev",
+    "type": "main",
+    "brand": "Launch",
+    "name": "X-431 PRO3 LINK EV",
+    "category": "EV Tool",
+    "product_type": "EV Diagnostic Scanner",
+    "product_series": "X-431",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Perform OE-level diagnostics to efficiently identify EV and battery issues across a wide range of vehicle brands. Empower the future of your repair shop with professional EV diagnostic.",
+    "public_description": "Perform OE-level diagnostics to efficiently identify EV and battery issues across a wide range of vehicle brands. Empower the future of your repair shop with professional EV diagnostic capabilities.\nDiagnose. Fix. Profit.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": true,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": true,
+      "DoIP": true
+    },
+    "feature_tags": [
+      "EV Diagnostics",
+      "CAN FD",
+      "DoIP"
+    ],
+    "related_products": [
+      "launch-em101n",
+      "launch-evp711",
+      "launch-crp919-ev",
+      "launch-elb300"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-x431-pro3-link-ev.png",
+    "internal_notes": "Zoho account: Launch. Source category: Advanced Diagnostics. Official Launch reference: i-340."
+  },
+  {
+    "id": "launch-crp919-ev",
+    "type": "main",
+    "brand": "Launch",
+    "name": "Creader Professional 919 EV",
+    "category": "EV Tool",
+    "product_type": "EV Diagnostic Scanner",
+    "product_series": "Creader",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "The Creader Professional 919 EV is an intelligent diagnostic tool designed for electric vehicles. It’s the perfect choice for auto shops looking to expand into EV repair and for DIY ent.",
+    "public_description": "The Creader Professional 919 EV is an intelligent diagnostic tool designed for electric vehicles. It’s the perfect choice for auto shops looking to expand into EV repair and for DIY enthusiasts tackling EV maintenance. With full functionality for all systems, it supports a wide range of vehicles and some EV battery packs. Diagnose with confidence, fix with ease, and profit with smart solutions.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": true,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": true,
+      "DoIP": true
+    },
+    "feature_tags": [
+      "EV Diagnostics",
+      "CAN FD",
+      "DoIP"
+    ],
+    "related_products": [
+      "launch-em101n",
+      "launch-evp711",
+      "launch-x431-pro3-link-ev",
+      "launch-elb300"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-crp919-ev.png",
+    "internal_notes": "Zoho account: Launch. Source category: Advanced Diagnostics. Official Launch reference: i-338."
+  },
+  {
+    "id": "launch-tsensor-05n",
+    "type": "accessory",
+    "brand": "Launch",
+    "name": "LAUNCH TSENSOR-05",
+    "category": "TPMS",
+    "product_type": "TPMS Sensor",
+    "product_series": "TSENSOR",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "In four colors, the LAUNCH TSENSOR-05 is a programmable universal TPMS sensor that combines 315MHz and 433MHz frequencies. It's reprogrammable via a LAUNCH TPMS tool for unlimited OE se.",
+    "public_description": "In four colors, the LAUNCH TSENSOR-05 is a programmable universal TPMS sensor that combines 315MHz and 433MHz frequencies. It's reprogrammable via a LAUNCH TPMS tool for unlimited OE sensor replacements. Real-time sensor data, such as pressure and temperature, can be read when the sensor is detected by a LAUNCH TPMS service tool.",
+    "best_for": [
+      "Compatible Launch service equipment"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": true,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "TPMS"
+    ],
+    "related_products": [],
+    "compatible_devices": [
+      "launch-creader-tpms-511s-v2"
+    ],
+    "compatible_accessories": [],
+    "image": "images/launch-tsensor-05n.png",
+    "internal_notes": "Zoho account: Launch. Source category: TPMS. Official Launch reference: i-276."
+  },
+  {
+    "id": "launch-tsensor-b-tesla",
+    "type": "accessory",
+    "brand": "Launch",
+    "name": "LAUNCH TSENSOR-B",
+    "category": "TPMS",
+    "product_type": "TPMS Sensor",
+    "product_series": "TSENSOR",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Featuring a highly integrated and low-power 2.4GHz BLE technology chip, as well as automotive-grade components, the LAUNCH TSENSOR-B is a reprogramming-free Bluetooth TPMS sensor for Te.",
+    "public_description": "Featuring a highly integrated and low-power 2.4GHz BLE technology chip, as well as automotive-grade components, the LAUNCH TSENSOR-B is a reprogramming-free Bluetooth TPMS sensor for Tesla models, delivering OEM-level performance. It supports Tesla part numbers 1490701-00-B, 1490701-01-B, 1490701-01-C, and 1490701-01-D. The LAUNCH TSENSOR-B is vehicle-ready and pre-configured for immediate use, 100% activatable, and fully supports all compatible models.",
+    "best_for": [
+      "Compatible Launch service equipment"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": true,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "TPMS"
+    ],
+    "related_products": [],
+    "compatible_devices": [
+      "launch-creader-tpms-511s-v2"
+    ],
+    "compatible_accessories": [],
+    "image": "images/launch-tsensor-b-tesla.png",
+    "internal_notes": "Zoho account: Launch. Source category: TPMS. Official Launch reference: i-322."
+  },
+  {
+    "id": "launch-tread-master-2",
+    "type": "main",
+    "brand": "Launch",
+    "name": "Tread Master 2.0",
+    "category": "TPMS",
+    "product_type": "Tyre Tread Depth Scanner",
+    "product_series": "TSENSOR",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "The Tread Master 2.0 is a handheld tread depth laser detector with high precision, measuring up to 0.1mm accuracy. Its innovative structural design makes it not limited by the chassis h.",
+    "public_description": "The Tread Master 2.0 is a handheld tread depth laser detector with high precision, measuring up to 0.1mm accuracy. Its innovative structural design makes it not limited by the chassis height. Equipped with a line laser, it supports two measurement modes: full tread scan and single groove measurement.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": true,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "TPMS"
+    ],
+    "related_products": [
+      "launch-creader-tpms-511s-v2",
+      "launch-itpms",
+      "launch-tread-master"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-tread-master-2.png",
+    "internal_notes": "Zoho account: Launch. Source category: Accessories. Official Launch reference: i-356."
+  },
+  {
+    "id": "launch-elb300",
+    "type": "main",
+    "brand": "Launch",
+    "name": "ELB300",
+    "category": "EV Tool",
+    "product_type": "EV Battery Cell Equalizer",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "ELB300 is designed for new energy batteries such as lithium iron phosphate, ternary lithium and lithium manganate, and can quickly solve the cruising range degradation caused by the dif.",
+    "public_description": "ELB300 is designed for new energy batteries such as lithium iron phosphate, ternary lithium and lithium manganate, and can quickly solve the cruising range degradation caused by the difference in cell capacity due to inconsistent cell voltages.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": true,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": true,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "EV Diagnostics",
+      "Battery Testing"
+    ],
+    "related_products": [
+      "launch-em101n",
+      "launch-evp711",
+      "launch-x431-pro3-link-ev",
+      "launch-crp919-ev"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-elb300.png",
+    "internal_notes": "Zoho account: Nistech. Source category: EV Tool. Official Launch reference: i-236."
+  },
+  {
+    "id": "launch-x613-wheel-aligner",
+    "type": "main",
+    "brand": "Launch",
+    "name": "X-613 Portable 3D Wheel Aligner",
+    "category": "ADAS & Alignment",
+    "product_type": "Portable 3D Wheel Aligner",
+    "product_series": "Launch",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Composed of two magnetic measurement units and four wheel clamp targets, connected via a wireless network, the X-613 is another wireless, ready-to-use four-wheel aligner for repair shop.",
+    "public_description": "Composed of two magnetic measurement units and four wheel clamp targets, connected via a wireless network, the X-613 is another wireless, ready-to-use four-wheel aligner for repair shops. Unlike traditional 3D wheel aligners, the X-613 eliminates the need for beams and cabinets, pairing with the LAUNCH diagnostic tool(X-431 PAD9/7/5 LINK) to perform precise four-wheel alignment detection. The X-613 supports both standard measurement and quick measurement, including key parameters such as toe, camber, caster, kingpin inclination, and thrust angle, as well as additional measurements including track width, wheelbase, wheel offset, axle offset, diagonal offset, and center offset.",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": true,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "ADAS"
+    ],
+    "related_products": [
+      "launch-x431-adas-radar-3in1",
+      "launch-x431-adas-mobile-plus"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-x613-wheel-aligner.png",
+    "internal_notes": "Zoho account: Nistech. Source category: ADAS & Alignment. Official Launch reference: i-318."
+  },
+  {
+    "id": "launch-x431-adas-mobile-plus",
+    "type": "main",
+    "brand": "Launch",
+    "name": "X-431 ADAS MOBILE PLUS",
+    "category": "ADAS & Alignment",
+    "product_type": "Mobile ADAS Calibration System",
+    "product_series": "X-431",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "The X-431 ADAS MOBILE PLUS is a foldable, portable and lightweight ADAS calibration tool for passenger cars, used to calibrate front/rear cameras and radar sensors when the vehicle sens.",
+    "public_description": "The X-431 ADAS MOBILE PLUS is a foldable, portable and lightweight ADAS calibration tool for passenger cars, used to calibrate front/rear cameras and radar sensors when the vehicle sensors or radars are removed or replaced for recalibration(s). It supports multiple ADAS systems calibrations. Targets are compatible with the X-431 ADAS PRO PLUS calibration tool. No installation is required and use straight out of the box!",
+    "best_for": [
+      "Professional workshops"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": true,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "ADAS"
+    ],
+    "related_products": [
+      "launch-x431-adas-radar-3in1",
+      "launch-x613-wheel-aligner"
+    ],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/launch-x431-adas-mobile-plus.png",
+    "internal_notes": "Zoho account: Nistech. Source category: ADAS & Alignment. Official Launch reference: i-303."
+  },
+  {
+    "id": "launch-pro-se-carton-only",
+    "type": "accessory",
+    "brand": "Launch",
+    "name": "X-431 PRO SE Carton Only",
+    "category": "Accessories",
+    "product_type": "Packaging Carton",
+    "product_series": "X-431",
+    "availability": "Unavailable",
+    "price_nzd_ex_gst": 0,
+    "subscription_nzd_ex_gst": 0,
+    "positioning": "Launch packaging carton for workshop service workflows.",
+    "public_description": "Launch packaging carton for workshop service workflows.",
+    "best_for": [
+      "Compatible Launch service equipment"
+    ],
+    "features": {
+      "J2534": false,
+      "Online Programming": false,
+      "Topology": false,
+      "ADAS": false,
+      "TPMS": false,
+      "Key Programming": "No",
+      "Heavy Duty": false,
+      "Remote Diagnosis": false,
+      "Battery Testing": false,
+      "Motorcycle": false,
+      "Commercial Vehicle": false,
+      "EV Diagnostics": false,
+      "Oscilloscope": false,
+      "VCI Included": false,
+      "Wireless Bluetooth": false,
+      "CAN FD": false,
+      "DoIP": false
+    },
+    "feature_tags": [
+      "Accessory Ecosystem"
+    ],
+    "related_products": [],
+    "compatible_devices": [],
+    "compatible_accessories": [],
+    "image": "images/placeholder.jpg",
+    "internal_notes": "Zoho account: Launch. Source category: Advanced Diagnostics. Official Launch reference: not listed; carton-only SKU retained by instruction."
   }
 ]
