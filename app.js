@@ -1,8 +1,11 @@
 const state = {
   products: [],
   filteredProducts: [],
-  compareIds: []
+  compareIds: [],
+  editMode: false
 };
+
+const PRODUCT_OVERRIDES_KEY = "nistech-product-catalogue-overrides";
 
 const elements = {
   searchInput: document.getElementById("search-input"),
@@ -27,7 +30,11 @@ const elements = {
   closeModal: document.getElementById("close-modal"),
   productCount: document.getElementById("product-count"),
   mainCount: document.getElementById("main-count"),
-  accessoryCount: document.getElementById("accessory-count")
+  accessoryCount: document.getElementById("accessory-count"),
+  toggleEditMode: document.getElementById("toggle-edit-mode"),
+  addProduct: document.getElementById("add-product"),
+  discardLocalEdits: document.getElementById("discard-local-edits"),
+  editModeNote: document.getElementById("edit-mode-note")
 };
 
 document.addEventListener("DOMContentLoaded", init);
@@ -38,8 +45,10 @@ async function init() {
   try {
     // Load the real product catalogue once, then drive search, filters and comparison from this data.
     const response = await fetch("products.json");
-    state.products = await response.json();
+    const sourceProducts = await response.json();
+    state.products = loadLocalEdits(sourceProducts);
     state.filteredProducts = [...state.products];
+    elements.discardLocalEdits.classList.toggle("hidden", !localStorage.getItem(PRODUCT_OVERRIDES_KEY));
 
     populateFilters();
     updateStats();
@@ -64,11 +73,48 @@ function bindEvents() {
   elements.openCompare.addEventListener("click", openComparisonModal);
   elements.clearCompare.addEventListener("click", clearComparison);
   elements.closeModal.addEventListener("click", closeModal);
+  elements.toggleEditMode.addEventListener("click", toggleEditMode);
+  elements.addProduct.addEventListener("click", openNewProductEditor);
+  elements.discardLocalEdits.addEventListener("click", discardLocalEdits);
   elements.modalOverlay.addEventListener("click", (event) => {
     if (event.target === elements.modalOverlay) {
       closeModal();
     }
   });
+}
+
+function loadLocalEdits(sourceProducts) {
+  try {
+    const overrides = JSON.parse(localStorage.getItem(PRODUCT_OVERRIDES_KEY) || "{}");
+    const sourceIds = new Set(sourceProducts.map((product) => product.id));
+    const editedProducts = sourceProducts.map((product) => ({ ...product, ...(overrides[product.id] || {}) }));
+    const localProducts = Object.values(overrides).filter((product) => !sourceIds.has(product.id));
+    return [...editedProducts, ...localProducts];
+  } catch (error) {
+    console.warn("Saved product edits could not be loaded.", error);
+    return sourceProducts;
+  }
+}
+
+function toggleEditMode() {
+  state.editMode = !state.editMode;
+  elements.toggleEditMode.textContent = state.editMode ? "Finish Editing" : "Edit Catalogue";
+  elements.toggleEditMode.setAttribute("aria-pressed", String(state.editMode));
+  elements.addProduct.classList.toggle("hidden", !state.editMode);
+  elements.editModeNote.classList.toggle("hidden", !state.editMode);
+  elements.editModeNote.textContent = state.editMode
+    ? "Editing mode is on. Use Edit Product on any card. Changes are saved in this browser only."
+    : "";
+  renderProducts();
+}
+
+function discardLocalEdits() {
+  if (!confirm("Discard all saved catalogue edits in this browser?")) {
+    return;
+  }
+
+  localStorage.removeItem(PRODUCT_OVERRIDES_KEY);
+  window.location.reload();
 }
 
 function populateFilters() {
@@ -232,6 +278,9 @@ function renderProducts() {
         </div>
         <div class="button-row">
           <button class="primary-button" data-action="details" data-product-id="${product.id}" type="button">View Details</button>
+          ${state.editMode
+            ? `<button class="edit-button" data-action="edit" data-product-id="${product.id}" type="button">Edit Product</button>`
+            : ""}
           ${product.type === "main"
             ? `<button class="secondary-button" data-action="compare" data-product-id="${product.id}" type="button">${isSelected ? "Remove from Compare" : "Add to Compare"}</button>`
             : `<button class="secondary-button" data-action="fitment" data-product-id="${product.id}" type="button">View Fitment</button>`}
@@ -240,6 +289,10 @@ function renderProducts() {
     `;
 
     card.querySelector('[data-action="details"]').addEventListener("click", () => openProductModal(product.id));
+
+    if (state.editMode) {
+      card.querySelector('[data-action="edit"]').addEventListener("click", () => openProductEditor(product.id));
+    }
 
     if (product.type === "main") {
       card.querySelector('[data-action="compare"]').addEventListener("click", () => toggleCompare(product.id));
@@ -422,6 +475,250 @@ function openProductModal(productId) {
   elements.modalOverlay.classList.remove("hidden");
 }
 
+function openProductEditor(productId) {
+  const product = getProductById(productId);
+  if (!product) {
+    return;
+  }
+
+  renderProductEditor(product, false);
+}
+
+function openNewProductEditor() {
+  renderProductEditor(createEmptyProduct(), true);
+}
+
+function renderProductEditor(product, isNew) {
+  const formTitle = isNew ? "Add product" : "Editing product";
+
+  elements.modalBody.innerHTML = `
+    <section class="editor-panel">
+      <div class="editor-panel__heading">
+        <div>
+          <p class="eyebrow eyebrow--dark">${formTitle}</p>
+          <h2 id="modal-title">${isNew ? "New catalogue product" : escapeHtml(product.name)}</h2>
+          <p>Changes are stored locally in this browser. They do not update the shared JSON file.</p>
+        </div>
+      </div>
+      <form id="product-edit-form" class="product-edit-form">
+        ${isNew ? editorField("Product ID", "id", product.id, "text", "full", "Use lowercase letters, numbers and hyphens only.") : ""}
+        ${isNew ? editorField("Type", "type", product.type, "product-type-select") : ""}
+        ${editorField("Product name", "name", product.name)}
+        ${editorField("Brand", "brand", product.brand)}
+        ${editorField("Category", "category", product.category)}
+        ${editorField("Product type", "product_type", product.product_type)}
+        ${editorField("Product series", "product_series", product.product_series)}
+        ${editorField("Availability", "availability", product.availability, "select")}
+        ${editorField("Price NZD ex GST", "price_nzd_ex_gst", product.price_nzd_ex_gst, "number")}
+        ${editorField("Subscription NZD ex GST", "subscription_nzd_ex_gst", product.subscription_nzd_ex_gst, "number")}
+        ${editorField("Positioning", "positioning", product.positioning, "textarea", "full")}
+        ${editorField("Public description", "public_description", product.public_description, "textarea", "full")}
+        ${editorField("Best for", "best_for", product.best_for.join(", "), "textarea", "full", "Comma-separated")}
+        ${featureTagPicker(product.feature_tags)}
+        ${editorField("Image path or URL", "image", product.image, "text", "full", "Use images/filename.png for a repository image, or paste a public image URL.")}
+        <label class="editor-field editor-field--full">
+          <span>Upload image to this browser</span>
+          <input id="edit-image-upload" name="image_upload" type="file" accept="image/*">
+          <small>Local-only: upload is stored in this browser and will not be added to the Git repository.</small>
+        </label>
+        ${editorField("Internal notes", "internal_notes", product.internal_notes, "textarea", "full")}
+        <div class="editor-actions">
+          <button class="primary-button" type="submit">Save Local Changes</button>
+          <button class="secondary-button" id="cancel-product-edit" type="button">Cancel</button>
+        </div>
+      </form>
+    </section>
+  `;
+
+  document.getElementById("cancel-product-edit").addEventListener("click", () => {
+    if (isNew) {
+      closeModal();
+      return;
+    }
+    openProductModal(product.id);
+  });
+  document.getElementById("product-edit-form").addEventListener("submit", async (event) => {
+    event.preventDefault();
+    await saveProductEdits(product, new FormData(event.currentTarget), isNew);
+  });
+  elements.modalOverlay.classList.remove("hidden");
+}
+
+function editorField(label, name, value, type = "text", modifier = "", hint = "") {
+  const fieldId = `edit-${name}`;
+  const safeValue = escapeHtml(value ?? "");
+  let control = `<input id="${fieldId}" name="${name}" type="${type}" value="${safeValue}">`;
+
+  if (type === "textarea") {
+    control = `<textarea id="${fieldId}" name="${name}" rows="4">${safeValue}</textarea>`;
+  }
+
+  if (type === "select") {
+    control = `<select id="${fieldId}" name="${name}">
+      ${["Available", "Unavailable"].map((option) => `<option value="${option}" ${option === value ? "selected" : ""}>${option}</option>`).join("")}
+    </select>`;
+  }
+
+  if (type === "product-type-select") {
+    control = `<select id="${fieldId}" name="${name}">
+      <option value="main" ${value === "main" ? "selected" : ""}>Main</option>
+      <option value="accessory" ${value === "accessory" ? "selected" : ""}>Accessory</option>
+    </select>`;
+  }
+
+  return `<label class="editor-field ${modifier ? `editor-field--${modifier}` : ""}">
+    <span>${label}</span>
+    ${control}
+    ${hint ? `<small>${hint}</small>` : ""}
+  </label>`;
+}
+
+function featureTagPicker(selectedTags) {
+  const tags = [...new Set(state.products.flatMap((product) => product.feature_tags))].filter(Boolean).sort();
+  return `<fieldset class="editor-field editor-field--full feature-picker">
+    <legend>Key feature tags</legend>
+    <div class="feature-picker__options">
+      ${tags.map((tag) => `<label><input type="checkbox" name="feature_tag" value="${escapeHtml(tag)}" ${selectedTags.includes(tag) ? "checked" : ""}><span>${escapeHtml(tag)}</span></label>`).join("")}
+    </div>
+    <label class="feature-picker__custom"><span>Add custom tags</span><input name="custom_feature_tags" type="text" placeholder="Comma-separated tags"></label>
+  </fieldset>`;
+}
+
+async function saveProductEdits(product, formData, isNew) {
+  const requestedId = (formData.get("id") || product.id).trim().toLowerCase().replace(/[^a-z0-9-]/g, "-").replace(/-+/g, "-");
+  const productId = isNew ? requestedId : product.id;
+  if (!productId) {
+    alert("A product ID is required.");
+    return;
+  }
+
+  if (isNew && getProductById(productId)) {
+    alert("That product ID already exists. Choose a different ID.");
+    return;
+  }
+
+  const uploadedImage = await readImageFile(formData.get("image_upload"));
+  const editedProduct = {
+    ...product,
+    id: productId,
+    type: isNew ? formData.get("type") : product.type,
+    name: formData.get("name").trim(),
+    brand: formData.get("brand").trim(),
+    category: formData.get("category").trim(),
+    product_type: formData.get("product_type").trim(),
+    product_series: formData.get("product_series").trim(),
+    availability: formData.get("availability"),
+    price_nzd_ex_gst: Number(formData.get("price_nzd_ex_gst")) || 0,
+    subscription_nzd_ex_gst: Number(formData.get("subscription_nzd_ex_gst")) || 0,
+    positioning: formData.get("positioning").trim(),
+    public_description: formData.get("public_description").trim(),
+    best_for: splitList(formData.get("best_for")),
+    feature_tags: selectedFeatureTags(formData),
+    image: uploadedImage || formData.get("image").trim() || "images/placeholder.jpg",
+    internal_notes: formData.get("internal_notes").trim()
+  };
+
+  const nextProducts = isNew
+    ? [...state.products, editedProduct]
+    : state.products.map((item) => item.id === productId ? editedProduct : item);
+  if (!saveLocalEdits(nextProducts)) {
+    return;
+  }
+
+  state.products = nextProducts;
+  populateFiltersFromCurrentState();
+  updateStats();
+  applyFilters();
+  openProductModal(productId);
+}
+
+function selectedFeatureTags(formData) {
+  return [...new Set([...formData.getAll("feature_tag"), ...splitList(formData.get("custom_feature_tags"))])];
+}
+
+function readImageFile(file) {
+  if (!file || !file.size) {
+    return Promise.resolve("");
+  }
+
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.addEventListener("load", () => resolve(reader.result));
+    reader.addEventListener("error", () => reject(new Error("Image file could not be read.")));
+    reader.readAsDataURL(file);
+  });
+}
+
+function createEmptyProduct() {
+  return {
+    id: "new-product",
+    type: "accessory",
+    brand: "",
+    name: "",
+    category: "",
+    product_type: "",
+    product_series: "",
+    availability: "Available",
+    price_nzd_ex_gst: 0,
+    subscription_nzd_ex_gst: 0,
+    positioning: "",
+    public_description: "",
+    best_for: [],
+    features: defaultFeatures(),
+    feature_tags: [],
+    related_products: [],
+    compatible_devices: [],
+    compatible_accessories: [],
+    image: "images/placeholder.jpg",
+    internal_notes: ""
+  };
+}
+
+function defaultFeatures() {
+  return {
+    "J2534": false,
+    "Online Programming": false,
+    "Topology": false,
+    "ADAS": false,
+    "TPMS": false,
+    "Key Programming": "No",
+    "Heavy Duty": false,
+    "Remote Diagnosis": false,
+    "Battery Testing": false,
+    "Motorcycle": false,
+    "Commercial Vehicle": false,
+    "EV Diagnostics": false,
+    "Oscilloscope": false,
+    "VCI Included": false,
+    "Wireless Bluetooth": false,
+    "CAN FD": false,
+    "DoIP": false
+  };
+}
+
+function splitList(value) {
+  return value.split(",").map((item) => item.trim()).filter(Boolean);
+}
+
+function saveLocalEdits(products = state.products) {
+  try {
+    const overrides = Object.fromEntries(products.map((product) => [product.id, product]));
+    localStorage.setItem(PRODUCT_OVERRIDES_KEY, JSON.stringify(overrides));
+    elements.discardLocalEdits.classList.remove("hidden");
+    return true;
+  } catch (error) {
+    alert("Your edit could not be saved in this browser. Use a smaller image, or save the image in the images folder and enter its path instead.");
+    console.error("Local catalogue save failed:", error);
+    return false;
+  }
+}
+
+function populateFiltersFromCurrentState() {
+  [elements.brandFilter, elements.categoryFilter, elements.seriesFilter, elements.productTypeFilter, elements.availabilityFilter, elements.featureFilter]
+    .forEach((select) => { select.length = 1; });
+  populateFilters();
+}
+
 function openComparisonModal() {
   const comparedProducts = getComparedProducts();
   if (comparedProducts.length < 2) {
@@ -566,4 +863,13 @@ function linkedProductPill(product) {
       ${product.name}
     </button>
   `;
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
 }

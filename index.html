@@ -18,6 +18,12 @@
         <p class="hero__text">
           Based on the Nistech product list: compare main products, inspect accessory fitment, and filter by series, category, availability and capability.
         </p>
+        <div class="catalogue-actions">
+          <button id="toggle-edit-mode" class="hero-button" type="button" aria-pressed="false">Edit Catalogue</button>
+          <button id="add-product" class="hero-button hero-button--quiet hidden" type="button">Add Product</button>
+          <button id="discard-local-edits" class="hero-button hero-button--quiet hidden" type="button">Discard Local Edits</button>
+        </div>
+        <p id="edit-mode-note" class="edit-mode-note hidden" aria-live="polite"></p>
       </div>
       <div class="hero__stats" aria-label="Catalogue summary">
         <div class="stat-card">
