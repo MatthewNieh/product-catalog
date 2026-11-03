@@ -521,6 +521,15 @@ function renderProductEditor(product, isNew) {
           <input id="edit-image-upload" name="image_upload" type="file" accept="image/*">
           <small>Local-only: upload is stored in this browser and will not be added to the Git repository.</small>
         </label>
+        ${relationshipPicker("Related Products", "related_product", product.related_products, product.id, "Products shown as related links in the detail view.")}
+        ${relationshipPicker(
+          product.type === "main" ? "Compatible Accessories" : "Compatible Devices",
+          "compatible_product",
+          product.type === "main" ? product.compatible_accessories : product.compatible_devices,
+          product.id,
+          product.type === "main" ? "Only accessory products are listed." : "Only main products are listed.",
+          product.type === "main" ? "accessory" : "main"
+        )}
         ${editorField("Internal notes", "internal_notes", product.internal_notes, "textarea", "full")}
         <div class="editor-actions">
           <button class="primary-button" type="submit">Save Local Changes</button>
@@ -540,6 +549,14 @@ function renderProductEditor(product, isNew) {
   document.getElementById("product-edit-form").addEventListener("submit", async (event) => {
     event.preventDefault();
     await saveProductEdits(product, new FormData(event.currentTarget), isNew);
+  });
+  elements.modalBody.querySelectorAll("[data-relationship-search]").forEach((input) => {
+    input.addEventListener("input", () => {
+      const query = input.value.trim().toLowerCase();
+      input.closest(".relationship-picker").querySelectorAll("[data-relationship-option]").forEach((option) => {
+        option.classList.toggle("hidden", !option.textContent.toLowerCase().includes(query));
+      });
+    });
   });
   elements.modalOverlay.classList.remove("hidden");
 }
@@ -584,6 +601,25 @@ function featureTagPicker(selectedTags) {
   </fieldset>`;
 }
 
+function relationshipPicker(label, inputName, selectedIds, currentProductId, hint, type = "") {
+  const products = state.products
+    .filter((product) => product.id !== currentProductId && (!type || product.type === type))
+    .sort((left, right) => left.name.localeCompare(right.name));
+  const pickerId = `${inputName}-picker`;
+
+  return `<fieldset class="editor-field editor-field--full relationship-picker">
+    <legend>${label}</legend>
+    <p>${hint}</p>
+    <input id="${pickerId}" data-relationship-search type="search" placeholder="Search existing products" autocomplete="off">
+    <div class="relationship-picker__options">
+      ${products.map((product) => `<label data-relationship-option>
+        <input type="checkbox" name="${inputName}" value="${escapeHtml(product.id)}" ${selectedIds.includes(product.id) ? "checked" : ""}>
+        <span>${escapeHtml(product.name)} <small>${escapeHtml(product.brand)} · ${escapeHtml(product.category)}</small></span>
+      </label>`).join("") || "<p>No existing products are available.</p>"}
+    </div>
+  </fieldset>`;
+}
+
 async function saveProductEdits(product, formData, isNew) {
   const requestedId = (formData.get("id") || product.id).trim().toLowerCase().replace(/[^a-z0-9-]/g, "-").replace(/-+/g, "-");
   const productId = isNew ? requestedId : product.id;
@@ -598,10 +634,15 @@ async function saveProductEdits(product, formData, isNew) {
   }
 
   const uploadedImage = await readImageFile(formData.get("image_upload"));
+  const productType = isNew ? formData.get("type") : product.type;
+  const compatibilityIds = formData.getAll("compatible_product").filter((id) => {
+    const candidate = getProductById(id);
+    return candidate && candidate.type === (productType === "main" ? "accessory" : "main");
+  });
   const editedProduct = {
     ...product,
     id: productId,
-    type: isNew ? formData.get("type") : product.type,
+    type: productType,
     name: formData.get("name").trim(),
     brand: formData.get("brand").trim(),
     category: formData.get("category").trim(),
@@ -615,6 +656,9 @@ async function saveProductEdits(product, formData, isNew) {
     best_for: splitList(formData.get("best_for")),
     feature_tags: selectedFeatureTags(formData),
     image: uploadedImage || formData.get("image").trim() || "images/placeholder.jpg",
+    related_products: formData.getAll("related_product"),
+    compatible_devices: productType === "accessory" ? compatibilityIds : [],
+    compatible_accessories: productType === "main" ? compatibilityIds : [],
     internal_notes: formData.get("internal_notes").trim()
   };
 
