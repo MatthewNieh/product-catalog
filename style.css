@@ -164,6 +164,10 @@ img {
   padding: 11px 14px;
   font-weight: 800;
   cursor: pointer;
+  min-height: 48px;
+  touch-action: manipulation;
+  position: relative;
+  z-index: 1;
 }
 
 .hero-button--quiet {
@@ -176,6 +180,10 @@ img {
   color: #fff !important;
   font-size: 0.88rem;
   font-weight: 700;
+}
+
+.is-editing .product-card {
+  border-color: rgba(15, 94, 168, 0.45);
 }
 
 .hero__stats {
@@ -635,23 +643,31 @@ img {
 
 .relationship-picker__options {
   display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
   max-height: 240px;
   overflow: auto;
-  border: 1px solid var(--border);
+  padding: 2px;
+  border: 0;
   border-radius: 10px;
 }
 
 .relationship-picker__options label {
-  display: flex;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: 20px minmax(0, 1fr);
+  gap: 8px;
   align-items: flex-start;
   padding: 10px 12px;
-  border-bottom: 1px solid var(--border);
+  min-height: 66px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: #fff;
   cursor: pointer;
 }
 
-.relationship-picker__options label:last-child {
-  border-bottom: 0;
+.relationship-picker__options label:hover {
+  border-color: #a9c9e7;
+  background: #f7fbff;
 }
 
 .relationship-picker__options input {
@@ -841,6 +857,20 @@ img {
   .hero__inner,
   .page-shell {
     width: min(100% - 24px, 1180px);
+  }
+
+  .catalogue-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .hero-button {
+    width: 100%;
+  }
+
+  .relationship-picker__options {
+    grid-template-columns: 1fr;
+    max-height: 260px;
   }
 
   .filter-grid,

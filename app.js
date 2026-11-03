@@ -98,12 +98,13 @@ function loadLocalEdits(sourceProducts) {
 
 function toggleEditMode() {
   state.editMode = !state.editMode;
+  document.body.classList.toggle("is-editing", state.editMode);
   elements.toggleEditMode.textContent = state.editMode ? "Finish Editing" : "Edit Catalogue";
   elements.toggleEditMode.setAttribute("aria-pressed", String(state.editMode));
   elements.addProduct.classList.toggle("hidden", !state.editMode);
   elements.editModeNote.classList.toggle("hidden", !state.editMode);
   elements.editModeNote.textContent = state.editMode
-    ? "Editing mode is on. Use Edit Product on any card. Changes are saved in this browser only."
+    ? "Editing mode is on. Edit Product buttons are now available on every card. Changes are saved in this browser only."
     : "";
   renderProducts();
 }
